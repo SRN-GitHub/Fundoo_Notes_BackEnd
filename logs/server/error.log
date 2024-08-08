@@ -1,0 +1,336 @@
+error: 
+    status - 500 
+    message - ValidationError: "LastName" length must be at least 4 characters long 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T10:52:44.149Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T10:53:15.519Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Registration_Cli.users index: Email_1 dup key: { Email: "tofabarman@gmail.com" } 
+      url - /api/v1/users/createuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-08T10:58:21.990Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\Workspace\Registration_Cli\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (D:\Workspace\Registration_Cli\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T10:58:22.003Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:07:05.937Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:07:16.570Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:07:38.920Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:10:08.691Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:10:26.863Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:12:23.242Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:55:29.497Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:55:52.643Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Registration_Cli.users index: Email_1 dup key: { Email: "tofabarman@gmail.com" } 
+      url - /api/v1/users/createuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-08T11:56:28.578Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\Workspace\Registration_Cli\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (D:\Workspace\Registration_Cli\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:56:28.585Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required.
+    at model.Document.invalidate (D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2788:32)
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\document.js:2580:17
+    at D:\Workspace\Registration_Cli\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:58:49.025Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Password is not defined
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:14:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T12:11:07.033Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userSchema is not defined
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:20:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T12:14:50.386Z"}
+error: 
+    status - 500 
+    message - TypeError: schema.pre is not a function
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:20:10)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T12:15:32.236Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Registration_Cli.users index: Email_1 dup key: { Email: "smitaG@gmail.com" } 
+      url - /api/v1/users/createuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-08T12:17:59.356Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\Workspace\Registration_Cli\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (D:\Workspace\Registration_Cli\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T12:17:59.373Z"}
