@@ -2,6 +2,7 @@ import User from '../models/user.model';
 import router from '../routes/user.route';
 const bcrypt = require('bcryptjs');
 
+
 //get all users
 export const getAllUsers = async () => {
   const data = await User.find();
@@ -11,14 +12,13 @@ export const getAllUsers = async () => {
 //create new user
 export const newUser = async (body) => {
   if (!body.Password) {
-    throw new Error('Password is required');
+    throw new Error('Password is requireddd');
   }
-  // passLength = 12;
-  const hashedPassword = await bcrypt.hash(body.Passwordassword, 10);
-  const data = await User.create({body, Password: hashedPassword});
+   let passLength = 12;
+  const hashedPassword = await bcrypt.hash(body.Password, passLength);
+  const data = await User.create({...body, Password: hashedPassword});
   return data;
 };
-
 
 //update single user
 export const updateUser = async (_id, body) => {
