@@ -380,3 +380,5 @@ error:
    {"timestamp":"2024-08-08T12:17:59.373Z"}
 info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-08T12:21:35.707Z"}
 info: Connected to the database. {"timestamp":"2024-08-08T12:21:35.736Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-08T12:30:29.422Z"}
+info: Connected to the database. {"timestamp":"2024-08-08T12:30:29.451Z"}

@@ -12,7 +12,7 @@ const userSchema = new Schema(
     Password: {type: String},
     confirmPassword: {
       type: String,
-      validate: {
+        validate: {
         validator: function(val) {
           return val === this.Password;
         },
@@ -25,12 +25,13 @@ const userSchema = new Schema(
   }
 );
 
+
+export default model('User', userSchema);
+
+
 // userSchema.pre('save', function(next) {
 //   if (this.Password !== this.confirmPassword) {
 //       this.invalidate('confirmPassword', 'Passwords do not match');
 //   }
 //   next();
 // });
-
-
-export default model('User', userSchema);
