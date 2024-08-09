@@ -334,3 +334,675 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-08-08T12:17:59.373Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:46:39.947Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:48:10.539Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:48:19.446Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:49:13.332Z"}
+error: 
+    status - 500 
+    message - ValidationError: "ConfirmPassword" is not allowed 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:49:45.194Z"}
+error: 
+    status - 500 
+    message - ValidationError: "ConfirmPassword" is not allowed 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:49:54.562Z"}
+error: 
+    status - 500 
+    message - ValidationError: "ConfirmPassword" is not allowed 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:50:01.775Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:51:24.393Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:52:21.191Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:52:51.336Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:52:58.114Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:53:21.331Z"}
+error: 
+    status - 500 
+    message - Error: "language" is not allowed
+    at new module.exports (D:\Workspace\Registration_Cli\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at Object.exports.checkPreferences (D:\Workspace\Registration_Cli\node_modules\@hapi\joi\lib\common.js:77:15)
+    at internals.Base.options [as prefs] (D:\Workspace\Registration_Cli\node_modules\@hapi\joi\lib\base.js:220:16)
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:11:70)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:58:24.697Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Confirm password" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:59:44.685Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Confirm password" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T05:59:50.583Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Confirm password" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T06:00:13.299Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirm password" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T06:00:27.645Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirm password" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T06:01:07.341Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirm password" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T06:01:11.866Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Confrim PasssWord L3" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T06:07:57.425Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Confrim PasssWord L3" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T06:08:15.864Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Confrim PasssWord L3" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T06:08:46.429Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Confrim PasssWord L3" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T06:12:34.177Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Confrim PasssWord L3" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T08:00:12.695Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Password is not defined
+    at _callee2$ (D:\Workspace\Registration_Cli\src\services\/user.service.js:15:11)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T08:35:22.964Z"}
+error: 
+    status - 500 
+    message - Error: Illegal arguments: undefined, number
+    at _async (D:\Workspace\Registration_Cli\node_modules\bcryptjs\dist\bcrypt.js:214:46)
+    at D:\Workspace\Registration_Cli\node_modules\bcryptjs\dist\bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.hash (D:\Workspace\Registration_Cli\node_modules\bcryptjs\dist\bcrypt.js:222:20)
+    at _callee2$ (D:\Workspace\Registration_Cli\src\services\/user.service.js:16:39)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.newUser (D:\Workspace\Registration_Cli\src\services\/user.service.js:11:21)
+    at _callee3$ (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newUser (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:23:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T08:36:02.271Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Registration_Cli.users index: Email_1 dup key: { Email: "manishasahu12@gmail.com" } 
+      url - /api/v1/users/createuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-09T08:40:42.220Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\Workspace\Registration_Cli\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (D:\Workspace\Registration_Cli\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T08:40:42.231Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Registration_Cli.users index: Email_1 dup key: { Email: "manishasahu12@gmail.com" } 
+      url - /api/v1/users/createuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-09T08:48:05.055Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\Workspace\Registration_Cli\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (D:\Workspace\Registration_Cli\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (D:\Workspace\Registration_Cli\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T08:48:05.073Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Paaassword L1" length must be at least 8 characters long 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T08:58:08.245Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T08:58:47.683Z"}
+error: 
+    status - 500 
+    message - ReferenceError: passLength is not defined
+    at _callee2$ (D:\Workspace\Registration_Cli\src\services\/user.service.js:13:13)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.newUser (D:\Workspace\Registration_Cli\src\services\/user.service.js:12:21)
+    at _callee3$ (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newUser (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:26:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T09:03:01.679Z"}
+error: 
+    status - 500 
+    message - Error: Illegal arguments: undefined, number
+    at _async (D:\Workspace\Registration_Cli\node_modules\bcryptjs\dist\bcrypt.js:214:46)
+    at D:\Workspace\Registration_Cli\node_modules\bcryptjs\dist\bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.hash (D:\Workspace\Registration_Cli\node_modules\bcryptjs\dist\bcrypt.js:222:20)
+    at _callee2$ (D:\Workspace\Registration_Cli\src\services\/user.service.js:14:39)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.newUser (D:\Workspace\Registration_Cli\src\services\/user.service.js:12:21)
+    at _callee3$ (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newUser (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:26:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T09:03:36.935Z"}
+error: 
+    status - 500 
+    message - Error: Illegal arguments: undefined, number
+    at _async (D:\Workspace\Registration_Cli\node_modules\bcryptjs\dist\bcrypt.js:214:46)
+    at D:\Workspace\Registration_Cli\node_modules\bcryptjs\dist\bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.hash (D:\Workspace\Registration_Cli\node_modules\bcryptjs\dist\bcrypt.js:222:20)
+    at _callee2$ (D:\Workspace\Registration_Cli\src\services\/user.service.js:14:39)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.newUser (D:\Workspace\Registration_Cli\src\services\/user.service.js:12:21)
+    at _callee3$ (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newUser (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:26:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T09:04:34.332Z"}
+error: 
+    status - 500 
+    message - Error: Password is required
+    at _callee2$ (D:\Workspace\Registration_Cli\src\services\/user.service.js:14:11)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.newUser (D:\Workspace\Registration_Cli\src\services\/user.service.js:12:21)
+    at _callee3$ (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newUser (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:26:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T09:05:55.139Z"}
+error: 
+    status - 500 
+    message - Error: Password is required
+    at _callee2$ (D:\Workspace\Registration_Cli\src\services\/user.service.js:14:11)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.newUser (D:\Workspace\Registration_Cli\src\services\/user.service.js:12:21)
+    at _callee3$ (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Registration_Cli\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newUser (D:\Workspace\Registration_Cli\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at newUserValidator (D:\Workspace\Registration_Cli\src\validators\/user.validator.js:26:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Registration_Cli\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Registration_Cli\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Registration_Cli\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Registration_Cli\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Registration_Cli\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Registration_Cli\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T09:06:57.827Z"}

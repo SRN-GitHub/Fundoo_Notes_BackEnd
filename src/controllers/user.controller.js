@@ -58,6 +58,7 @@ export const newUser = async (req, res, next) => {
   }
 };
 
+
 /**
  * Controller to update a user
  * @param  {object} req - request object

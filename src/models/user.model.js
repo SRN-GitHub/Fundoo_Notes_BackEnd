@@ -10,23 +10,21 @@ const userSchema = new Schema(
     Email: {type: String, unique: true},
     Age: {type: Number},
     Password: {type: String},
-    confirmPassword: {
-      type: String,
-        validate: {
-        validator: function(val) {
-          return val === this.Password;
-        },
-        message: 'Passwords do not match'
-      }
-    }
+    // confirmPassword: {type: String}
   },
   {
     timestamps: true
   }
 );
 
-
 export default model('User', userSchema);
+
+//   validate: {
+      //   validator: function(val) {
+      //     return val === this.Password;
+      //   },
+      //   message: 'Passwords do not match'
+      // }
 
 
 // userSchema.pre('save', function(next) {
@@ -35,3 +33,6 @@ export default model('User', userSchema);
 //   }
 //   next();
 // });
+
+
+
