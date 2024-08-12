@@ -1,6 +1,8 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
+//* Entry point of the API and Handles HTTP reqsts and invoke services.
+
 /**
  * Controller to get all users available
  * @param  {object} req - request object

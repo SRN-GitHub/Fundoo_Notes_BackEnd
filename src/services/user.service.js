@@ -2,6 +2,7 @@ import User from '../models/user.model';
 import router from '../routes/user.route';
 const bcrypt = require('bcryptjs');
 
+//* performs core oporations . CRUD operations performing. 
 
 //get all users
 export const getAllUsers = async () => {
