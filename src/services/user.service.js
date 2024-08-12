@@ -14,8 +14,8 @@ export const newUser = async (body) => {
   if (!body.Password) {
     throw new Error('Password is requireddd');
   }
-   let passLength = 12;
-  const hashedPassword = await bcrypt.hash(body.Password, passLength);
+   let saltRound = 12;
+  const hashedPassword = await bcrypt.hash(body.Password, saltRound);
   const data = await User.create({...body, Password: hashedPassword});
   return data;
 };
