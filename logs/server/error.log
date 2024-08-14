@@ -1258,3 +1258,24 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-08-09T09:17:16.398Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-12T09:04:14.943Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-12T09:04:27.892Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-13T13:18:27.801Z"}

@@ -12,6 +12,7 @@ const routes = () => {
     res.json('Welcome>>> Api is Working');
   });
   router.use('/users', userRoute);
+  router.use('/login',userRoute);
 
   return router;
 };

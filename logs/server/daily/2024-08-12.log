@@ -1,2 +1,22 @@
 info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-12T08:42:27.053Z"}
 info: Connected to the database. {"timestamp":"2024-08-12T08:42:27.146Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-12T08:59:47.701Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T08:59:47.723Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-12T09:04:14.943Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-12T09:04:27.892Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-12T09:10:55.944Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T09:10:55.969Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-12T09:57:36.201Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T09:57:36.252Z"}

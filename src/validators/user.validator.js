@@ -15,8 +15,6 @@ export const newUserValidator = (req, res, next) => {
 
   
 
-
-
   const { error, value } = schema.validate(req.body);
   
   if (error) {
