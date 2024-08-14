@@ -13,8 +13,6 @@ export const newUserValidator = (req, res, next) => {
     // .options({ messages:{ 'any.only': '{{#label}} does not match L4' } })
   });
 
-  
-
   const { error, value } = schema.validate(req.body);
   
   if (error) {

@@ -12,3 +12,7 @@ info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T0
 info: Connected to the database. {"timestamp":"2024-08-14T06:30:48.669Z"}
 info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T06:31:08.838Z"}
 info: Connected to the database. {"timestamp":"2024-08-14T06:31:08.871Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T06:32:57.212Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T06:32:57.242Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T06:56:46.658Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T06:56:46.679Z"}

@@ -4,11 +4,9 @@ import router from '../routes/user.route';
 import { token } from 'morgan';
 const bcrypt = require('bcryptjs');
 
-//* performs core oporations . CRUD operations performing. 
+//*   performs core oporations . CRUD operations performing. 
+//&   create new user >>>
 
-
-
-//create new user
 export const newUser = async (body) => {
   if (!body.Password) {
     throw new Error('Password is requiredd');
@@ -19,20 +17,8 @@ export const newUser = async (body) => {
   return data;
 };
 
-//* LOGIN USER
-// export const loginUser = async(email, password) =>{
-//   const user = await User.findOne({email: req.body.email});
-//   if(!user){
-//     throw new Error(`User Not Found`);
-// } 
-// const isMatch = await bcrypt.compare(password, user.Password);
-// if(!isMatch){
-//   throw new Error(`Invalid Password`);
-//   }
-//   return {id:user.id, FirstName:user.FirstName, LastName:user.LastName, email:user.email}
+//* LOGIN USER >>>
 
-// };
-//& NEW
 export const loginUserOne = async (Email, Password) => {
   const user = await User.findOne({ Email });
   if (!user) {
@@ -45,6 +31,7 @@ export const loginUserOne = async (Email, Password) => {
   return { id: user.id, FirstName: user.FirstName, LastName: user.LastName,
      email: user.Email, token };
 };
+
 
 // get all users
 // export const getAllUsers = async () => {

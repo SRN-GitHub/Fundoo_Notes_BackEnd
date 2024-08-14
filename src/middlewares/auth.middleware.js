@@ -1,9 +1,9 @@
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
+// import User from '../models/user.model';
 
 dotenv.config()
-// import User from '../models/user.model';
 
 /**
  * Middleware to authenticate if user has a valid Authorization token

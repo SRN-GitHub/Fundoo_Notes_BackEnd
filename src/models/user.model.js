@@ -20,21 +20,3 @@ const userSchema = new Schema(
 
 
 export default model('User', userSchema);
-
-//   validate: {
-      //   validator: function(val) {
-      //     return val === this.Password;
-      //   },
-      //   message: 'Passwords do not match'
-      // }
-
-
-// userSchema.pre('save', function(next) {
-//   if (this.Password !== this.confirmPassword) {
-//       this.invalidate('confirmPassword', 'Passwords do not match');
-//   }
-//   next();
-// });
-
-
-

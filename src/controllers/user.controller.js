@@ -5,7 +5,6 @@ import { http } from 'winston';
 import jwt from 'jsonwebtoken';
 
 //* Entry point of the API and Handles HTTP reqsts and invoke services.
-
 //* LOGIN USER VALIDATE
 
 export const loginUser = async (req, res, next) => {
@@ -26,8 +25,7 @@ export const loginUser = async (req, res, next) => {
   }
 };
 
-/**
- * Controller to create a new user
+//&   CREATE A NEW USER >>>
 //  * @param  {object} req - request object
 //  * @param {object} res - response object
 //  * @param {Function} next
@@ -45,15 +43,8 @@ export const newUser = async (req, res, next) => {
   }
 };
 
-// export const userAuthen = async (req, res, next) => {
-//   try {
-    
-//   } catch (error) {
-    
-//   }
-// }
 
-/**
+//&   TO GETTING ALL USER >>>
 //  * Controller to get all users available
 //  * @param  {object} req - request object
 //  * @param {object} res - response object
@@ -72,7 +63,7 @@ export const newUser = async (req, res, next) => {
 //   }
 // };
 
-// /**
+//&   TO GET A SIGNLE USER >>>
 //  * Controller to get a single user
 //  //* @param  {object} req - request object
 //  * @param {object} res - response object
@@ -92,13 +83,13 @@ export const newUser = async (req, res, next) => {
 // };
 
 
-// /**
+//& UPDATE USER >>>
 // export const updateUser = async (req, res, next) => {
-//   //  * Controller to update a user
-//   //  * @param  {object} req - request object
-//   //  * @param {object} res - response object
-//   //  * @param {Function} next
-//   //  */
+  //  * Controller to update a user
+  //  * @param  {object} req - request object
+  //  * @param {object} res - response object
+  //  * @param {Function} next
+  //  */
 //   try {
 //     const data = await UserService.updateUser(req.params._id, req.body);
 //     res.status(HttpStatus.ACCEPTED).json({
@@ -111,7 +102,7 @@ export const newUser = async (req, res, next) => {
 //   }
 // };
 
-// /** DELETE USEER
+//!  DELETE USER
 //  * Controller to delete a user
 //  * @param  {object} req - request object
 //  * @param {object} res - response object
