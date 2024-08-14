@@ -1,7 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
-// import User from '../models/user.model';
 
 dotenv.config()
 

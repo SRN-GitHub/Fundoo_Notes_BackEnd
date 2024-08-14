@@ -16,3 +16,106 @@ info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T0
 info: Connected to the database. {"timestamp":"2024-08-14T06:32:57.242Z"}
 info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T06:56:46.658Z"}
 info: Connected to the database. {"timestamp":"2024-08-14T06:56:46.679Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T07:00:28.716Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T07:00:28.739Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T07:10:28.379Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T07:10:28.401Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T07:11:06.489Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T07:11:06.514Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T07:12:19.191Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T07:12:19.214Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T07:13:24.749Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T07:13:24.768Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T07:14:12.874Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T07:14:12.898Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T09:55:55.187Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T09:55:55.212Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T10:05:40.397Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:05:40.420Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T10:06:31.080Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:06:31.103Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:17:14.873Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:18:03.024Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:18:25.949Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:23:32.279Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:23:37.578Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:26:53.725Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:27:11.342Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:32:16.836Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:32:54.083Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:32:59.924Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:33:05.443Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:33:11.862Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:33:23.675Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:33:40.175Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:36:06.473Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:36:46.382Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:37:19.477Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:37:24.997Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:38:10.177Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:38:16.066Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:38:33.202Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T10:40:28.207Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T10:40:28.229Z"}
+error: 
+    status - 500 
+    message - TypeError: _notes.default.newNotes is not a function
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:9:43)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newNotes (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:7:22)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-14T10:56:35.250Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T11:49:46.972Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T11:49:47.002Z"}
+error: 
+    status - 500 
+    message - TypeError: _notes.default.newNotes is not a function
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:9:43)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newNotes (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:7:22)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-14T11:50:02.165Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T12:09:33.376Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T12:09:33.406Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T12:19:55.202Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T12:19:55.225Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T12:20:25.639Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T12:20:25.662Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-14T12:24:31.036Z"}
+info: Connected to the database. {"timestamp":"2024-08-14T12:24:31.060Z"}

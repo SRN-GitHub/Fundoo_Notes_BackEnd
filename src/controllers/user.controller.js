@@ -3,6 +3,7 @@ import * as UserService from '../services/user.service';
 import { json } from 'express';
 import { http } from 'winston';
 import jwt from 'jsonwebtoken';
+import { token } from 'morgan';
 
 //* Entry point of the API and Handles HTTP reqsts and invoke services.
 //* LOGIN USER VALIDATE
@@ -14,11 +15,11 @@ export const loginUser = async (req, res, next) => {
 
     //& GENERATE JWT TOEKEN
     const token = jwt.sign(
-      { userId: user.id, Email: user.email },
+      { userId: user.id, Email: user.email, data: token},
       process.env.SECRET_KEY,
       { expiresIn: '5h' }
     )
-    res.status(HttpStatus.OK).json({ code: HttpStatus.OK, data: {user, token}, message: 'User Logged in Succesfully'});
+    res.status(HttpStatus.OK).json({ code: HttpStatus.OK, data:{user, token}, message: 'User Logged in Succesfully'});
   } catch (error) {
     res.status(HttpStatus.UNAUTHORIZED).json({code: HttpStatus.UNAUTHORIZED, message: error.message})
     console.error('Login error:', error.message);

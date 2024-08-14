@@ -5,7 +5,7 @@ import { token } from 'morgan';
 const bcrypt = require('bcryptjs');
 
 //*   performs core oporations . CRUD operations performing. 
-//&   create new user >>>
+//&   create new user >>> BCRYPTS
 
 export const newUser = async (body) => {
   if (!body.Password) {
@@ -29,7 +29,7 @@ export const loginUserOne = async (Email, Password) => {
     throw new Error('Invalid Password');
   }
   return { id: user.id, FirstName: user.FirstName, LastName: user.LastName,
-     email: user.Email, token };
+     email: user.Email };
 };
 
 
