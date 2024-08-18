@@ -3,6 +3,8 @@ import User from '../models/user.model';
 import router from '../routes/user.route';
 import { token } from 'morgan';
 const bcrypt = require('bcryptjs');
+import crypto from 'crypto';
+
 
 //*   performs core oporations . CRUD operations performing. 
 //&   create new user >>> BCRYPTS
@@ -34,33 +36,33 @@ export const loginUserOne = async (Email, Password) => {
 
 
 // get all users
-// export const getAllUsers = async () => {
-//   const data = await User.find();
-//   return data;
-// };
+export const getAllUsers = async () => {
+  const data = await User.find();
+  return data;
+};
 
-//update single user
-// export const updateUser = async (_id, body) => {
-//   const data = await User.findByIdAndUpdate(
-//     {
-//       _id
-//     },
-//     body,
-//     {
-//       new: true
-//     }
-//   );
-//   return data;
-// };
+// update single user
+export const updateUser = async (_id, body) => {
+  const data = await User.findByIdAndUpdate(
+    {
+      _id
+    },
+    body,
+    {
+      new: true
+    }
+  );
+  return data;
+};
 
 //delete single user
-// export const deleteUser = async (id) => {
-//   await User.findByIdAndDelete(id);
-//   return '';
-// };
+export const deleteUser = async (id) => {
+  await User.findByIdAndDelete(id);
+  return '';
+};
 
 //get single user
-// export const getUser = async (id) => {
-//   const data = await User.findById(id);
-//   return data;
-// };
+export const getUser = async (id) => {
+  const data = await User.findById(id);
+  return data;
+};

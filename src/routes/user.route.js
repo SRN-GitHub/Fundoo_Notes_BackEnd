@@ -1,7 +1,8 @@
 import express from 'express';
 import * as userController from '../controllers/user.controller';
 import { newUserValidator } from '../validators/user.validator';
-// import { userAuth } from '../middlewares/auth.middleware';
+import { userAuth } from '../middlewares/auth.middleware';
+// import * as userController from '../controllers/user.controller';
 
 const router = express.Router();
 
@@ -15,13 +16,17 @@ router.post('/createuser', newUserValidator, userController.newUser);
 //*  Route to Login User >>>
 router.post('/login', userController.loginUser);
 
-//& Route to get a single user by their user id
-// router.get('/:_id', userController.getUser);
+//& Route to get a single user by their user id >>>
+router.get('/:_id', userController.getUser);
 
-//& Route to update a single user by their user id
-// router.put('/:_id', userController.updateUser);
+//& Route to update a single user by their user id >>>
+router.put('/:_id', userController.updateUser);
 
-//! Route to delete a single user by their user id
-// router.delete('/:_id', userController.deleteUser);
+//! Route to delete a single user by their user id >>>
+router.delete('/:_id', userController.deleteUser);
+
+// //*  Forgot Password >>>
+router.post('/forgotPassword' ,userAuth , userController.forgotPassword);
+
 
 export default router;

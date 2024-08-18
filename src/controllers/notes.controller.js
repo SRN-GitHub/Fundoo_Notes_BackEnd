@@ -1,9 +1,7 @@
 import HttpStatus from 'http-status-codes';
-import { newNotes, getAllNote, updateNote as updateNoteService, deleteNote as deleteNoteService } from '../services/notes.service';
-
+import { newNotes, getAllNote , getArchivedNotes as getArchivedNotesOk, getTrashedNotes as getTrashedNotesOk , updateNote as updateNoteService, deleteNote as deleteNoteService } from '../services/notes.service';
 
 // ^    CREATE NOTES >>>
-
 export const createNote = async (req, res, next) => {
     try {
         const note = await newNotes(req.body);
@@ -21,14 +19,13 @@ export const createNote = async (req, res, next) => {
 };
 
 // &    GET ALL NOTES >>>
-
 export const getAllNotes = async (req, res, next) => {
     try {
-        const notes = await getAllNote();  // Call the function from service !!!
+        const notes = await getAllNote();
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: notes,
-            message: 'Notes retrieved successfully'
+            message: 'All Notes Fetched successfully'
         });
     } catch (error) {
         res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
@@ -72,3 +69,55 @@ export const deleteNote = async (req, res, next) => {
         });
     }
 };
+
+// &    ARCHIEVE NOTES >>>
+export const getArchivedNotes = async (req, res, next) => {
+    try {
+        const notes = await getArchivedNotesOk();
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: notes,
+            message: 'Archived notes Fetched successfully'
+        });
+    } catch (error) {
+        res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+            code: HttpStatus.INTERNAL_SERVER_ERROR,
+            message: error.message
+        });
+    }
+};
+
+// &    TRASH NOTES >>>
+export const getTrashedNotes = async (req, res, next) => {
+    try {
+        const notes = await getTrashedNotesOk();
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: notes,
+            message: 'Trashed notes Fetched successfully'
+        });
+    } catch (error) {
+        res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+            code: HttpStatus.INTERNAL_SERVER_ERROR,
+            message: error.message
+        });
+    }
+};
+
+// // &    FORGOT PASSWORD >>>
+// export const forgotPassword = async (req, res, next) => {
+//     try {
+//         const { email } = req.body;
+//         const resetToken = await forgotPasswordServices(email);
+//         res.status(HttpStatus.OK).json({
+//             code: HttpStatus.OK,
+//             data: { resetToken },
+//             message: 'Password reset token generated successfully'
+//         });
+//     } catch (error) {
+//         res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+//             code: HttpStatus.INTERNAL_SERVER_ERROR,
+//             message: error.message
+//         });
+//     }
+// };
