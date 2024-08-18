@@ -1750,3 +1750,146 @@ Error: Error Unable to Create!!!
     at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
     at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Aug 14 2024 18:20:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1376.671},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18269459,"external":21345132,"heapTotal":45494272,"heapUsed":43572232,"rss":82845696},"pid":10624,"uid":null,"version":"v20.11.1"},"stack":"Error: Error Unable to Create!!!\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:17:15)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-14T12:50:26.984Z","trace":[{"column":15,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":17,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\Workspace\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\Workspace\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Workspace\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\middlewares\/auth.middleware.js:25:32)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (D:\Workspace\Fundoo_Notes\src\middlewares\/auth.middleware.js:15:22)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-18T16:25:05.403Z"}
+error: uncaughtException: Error Unable to Create!!!
+Error: Error Unable to Create!!!
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:17:15)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Aug 18 2024 21:59:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":114862.546},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18274827,"external":21350500,"heapTotal":46542848,"heapUsed":43836856,"rss":82411520},"pid":7772,"uid":null,"version":"v20.11.1"},"stack":"Error: Error Unable to Create!!!\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:17:15)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-18T16:29:03.861Z","trace":[{"column":15,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":17,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Error Unable to Create!!!
+Error: Error Unable to Create!!!
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:17:15)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Aug 18 2024 22:01:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":115013.531},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18281554,"external":21359843,"heapTotal":88317952,"heapUsed":56731008,"rss":123047936},"pid":17880,"uid":null,"version":"v20.11.1"},"stack":"Error: Error Unable to Create!!!\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:17:15)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _throw (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:20:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-18T16:31:34.837Z","trace":[{"column":15,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":17,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":20,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Error Unable to Create!!!
+Error: Error Unable to Create!!!
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:17:15)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Aug 18 2024 22:07:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":115394.359},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18262460,"external":21338432,"heapTotal":45494272,"heapUsed":43577520,"rss":82571264},"pid":12676,"uid":null,"version":"v20.11.1"},"stack":"Error: Error Unable to Create!!!\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:17:15)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-18T16:37:55.659Z","trace":[{"column":15,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":17,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:20:20)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at createNote (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\middlewares\/auth.middleware.js:28:7)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Aug 18 2024 22:33:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":116946.296},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18270607,"external":21348237,"heapTotal":48902144,"heapUsed":45767240,"rss":85618688},"pid":18832,"uid":null,"version":"v20.11.1"},"stack":"ReferenceError: HttpStatus is not defined\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:20:20)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:7\n    at new Promise (<anonymous>)\n    at apply (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:14:12)\n    at createNote (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:11:24)\n    at Layer.handle [as handle_request] (D:\\Workspace\\Fundoo_Notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Workspace\\Fundoo_Notes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\middlewares\\/auth.middleware.js:28:7)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-18T17:03:47.598Z","trace":[{"column":20,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":20,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":22,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":14,"method":null,"native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"createNote","line":11,"method":null,"native":false},{"column":5,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":28,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Registration_Cli.users index: Email_1 dup key: { Email: "shankha@gmail.com" } 
+      url - /api/v1/users/createuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-18T18:18:55.131Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\Workspace\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\Workspace\Fundoo_Notes\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (D:\Workspace\Fundoo_Notes\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (D:\Workspace\Fundoo_Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:141:14)
+    at _callee2$ (D:\Workspace\Fundoo_Notes\src\controllers\/user.controller.js:43:5)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-18T18:18:55.141Z"}

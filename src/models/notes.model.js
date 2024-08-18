@@ -5,7 +5,7 @@ const notesSchema = new mongoose.Schema(
     {
         title: {
             type: String,
-            required: true, 
+            required: true,
         },
         noteDetails: {
             type: String,
@@ -23,5 +23,4 @@ const notesSchema = new mongoose.Schema(
 
 const Notes = mongoose.model('Notes', notesSchema);
 
-module.exports = Notes;
-// export default Notes;
+export default Notes;

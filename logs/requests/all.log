@@ -647,3 +647,161 @@ Error: Error Unable to Create!!!
     at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
     at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Aug 14 2024 18:20:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1376.687},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18277675,"external":21353388,"heapTotal":45756416,"heapUsed":43910312,"rss":82956288},"pid":10624,"uid":null,"version":"v20.11.1"},"stack":"Error: Error Unable to Create!!!\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:17:15)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":17,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [18/Aug/2024:16:23:05 +0000] "GET /api/v1/ HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [18/Aug/2024:16:23:05 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [18/Aug/2024:16:23:24 +0000] "GET /api/v1/ HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [18/Aug/2024:16:23:25 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [18/Aug/2024:16:23:55 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [18/Aug/2024:16:25:05 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:16:25:48 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 326 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:16:27:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 389 "-" "PostmanRuntime/7.41.1"
+
+error: uncaughtException: Error Unable to Create!!!
+Error: Error Unable to Create!!!
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:17:15)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Aug 18 2024 21:59:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":114862.562},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18283043,"external":21358756,"heapTotal":46542848,"heapUsed":44142528,"rss":81715200},"pid":7772,"uid":null,"version":"v20.11.1"},"stack":"Error: Error Unable to Create!!!\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:17:15)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":17,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Error Unable to Create!!!
+Error: Error Unable to Create!!!
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:17:15)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Aug 18 2024 22:01:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":115013.531},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18289770,"external":21368099,"heapTotal":88317952,"heapUsed":56818760,"rss":123072512},"pid":17880,"uid":null,"version":"v20.11.1"},"stack":"Error: Error Unable to Create!!!\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:17:15)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _throw (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:20:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":17,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":20,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Error Unable to Create!!!
+Error: Error Unable to Create!!!
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:17:15)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Aug 18 2024 22:07:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":115394.359},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18270676,"external":21346389,"heapTotal":45494272,"heapUsed":43639624,"rss":82616320},"pid":12676,"uid":null,"version":"v20.11.1"},"stack":"Error: Error Unable to Create!!!\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:17:15)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":17,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [18/Aug/2024:17:02:18 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 64 "-" "PostmanRuntime/7.41.1"
+
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:20:20)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at createNote (D:\Workspace\Fundoo_Notes\src\controllers\/notes.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\middlewares\/auth.middleware.js:28:7)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Aug 18 2024 22:33:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":116946.312},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286057,"external":21361770,"heapTotal":48902144,"heapUsed":45873736,"rss":85798912},"pid":18832,"uid":null,"version":"v20.11.1"},"stack":"ReferenceError: HttpStatus is not defined\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:20:20)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:7\n    at new Promise (<anonymous>)\n    at apply (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:14:12)\n    at createNote (D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js:11:24)\n    at Layer.handle [as handle_request] (D:\\Workspace\\Fundoo_Notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Workspace\\Fundoo_Notes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at _callee$ (D:\\Workspace\\Fundoo_Notes\\src\\middlewares\\/auth.middleware.js:28:7)\n    at tryCatch (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":20,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"_callee$","line":20,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":22,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":14,"method":null,"native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\src\\controllers\\/notes.controller.js","function":"createNote","line":11,"method":null,"native":false},{"column":5,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":28,"method":null,"native":false},{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":17,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":17,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [18/Aug/2024:17:05:11 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 64 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:13:13 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 201 188 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:15:52 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 201 195 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:16:13 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 328 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:16:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 392 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:17:07 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 201 193 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:54:02 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 201 197 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:57:14 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:57:19 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:57:50 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:57:56 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:58:05 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:17:59:01 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:00:45 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:03:18 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:11:39 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:13:53 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:14:37 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:15:29 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:17:16 +0000] "PUT /api/v1/notes/updateNote/66c22c4829f14645d4ce0e24 HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:17:36 +0000] "PUT /api/v1/notes/updateNote/66c22c4829f14645d4ce0e24 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:17:40 +0000] "PUT /api/v1/notes/updateNote/66c22c4829f14645d4ce0e24 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:18:15 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 201 197 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:18:55 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 61 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:19:23 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 337 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:19:50 +0000] "POST /api/v1/users/login HTTP/1.1" 200 404 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:20:46 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 201 207 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:21:29 +0000] "PUT /api/v1/notes/updateNote/66c22c4829f14645d4ce0e24 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:21:58 +0000] "PUT /api/v1/notes/updateNote/66c22c4829f14645d4ce0e24 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:22:46 +0000] "PUT /api/v1/notes/updateNote/66c22c4829f14645d4ce0e24 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:22:59 +0000] "PUT /api/v1/notes/updateNote/66c22c4829f14645d4ce0e24 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:23:22 +0000] "PUT /api/v1/notes/updateNote/66c23b2b579acc4a2cf3c641 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:24:04 +0000] "PUT /api/v1/notes/updateNote/66c23b2b579acc4a2cf3c641 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:31:13 +0000] "PUT /api/v1/notes/updateNote/66c23b2b579acc4a2cf3c641 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:34:55 +0000] "PUT /api/v1/notes/updateNote/66c23b2b579acc4a2cf3c641 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:35:25 +0000] "GET /api/v1/notes/getAllNote HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:35:45 +0000] "GET /api/v1/notes/getAllNote HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:36:41 +0000] "GET /api/v1/notes/getAllNote HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:48:06 +0000] "GET /api/v1/notes/getAllNote HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:49:39 +0000] "GET /api/v1/notes/getAllNote HTTP/1.1" 200 608 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:57:26 +0000] "PUT /api/v1/notes/updateNote/66c23b7e579acc4a2cf3c644 HTTP/1.1" 200 197 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:58:15 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 201 207 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:18:59:24 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 201 196 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:19:01:32 +0000] "PUT /api/v1/notes/updateNote/66c2448ca727441ecc050d0c HTTP/1.1" 200 199 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:19:03:27 +0000] "DELETE /api/v1/notes/deleteNote/66c23b7e579acc4a2cf3c644 HTTP/1.1" 200 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:19:04:40 +0000] "PUT /api/v1/notes/updateNote/66c24447a727441ecc050d0a HTTP/1.1" 200 198 "-" "PostmanRuntime/7.41.1"
+

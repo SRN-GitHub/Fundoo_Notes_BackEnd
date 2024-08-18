@@ -1,2 +1,145 @@
 info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T16:22:43.712Z"}
 info: Connected to the database. {"timestamp":"2024-08-18T16:22:43.733Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T16:23:01.939Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T16:23:01.960Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\Workspace\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\Workspace\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Workspace\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\middlewares\/auth.middleware.js:25:32)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (D:\Workspace\Fundoo_Notes\src\middlewares\/auth.middleware.js:15:22)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-18T16:25:05.403Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T16:29:13.936Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T16:29:13.982Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T16:31:19.192Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T16:31:19.211Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T16:32:08.329Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T16:32:08.356Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T16:38:05.287Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T16:38:05.314Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T17:01:56.884Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T17:01:56.907Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T17:03:00.525Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T17:03:00.546Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T17:03:56.906Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T17:03:56.934Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T17:05:01.799Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T17:05:01.828Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T17:11:59.954Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T17:11:59.972Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T17:15:48.438Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T17:15:48.458Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T17:26:54.349Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T17:26:54.368Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T17:53:47.046Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T17:53:47.076Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T17:58:45.017Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T17:58:45.050Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:00:38.113Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:00:38.145Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:08:36.339Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:08:36.377Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:10:27.663Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:10:27.703Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:10:58.323Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:10:58.347Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:11:33.876Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:11:33.900Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:13:29.979Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:13:30.003Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:13:47.492Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:13:47.521Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:14:31.814Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:14:31.835Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:15:24.944Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:15:24.963Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Registration_Cli.users index: Email_1 dup key: { Email: "shankha@gmail.com" } 
+      url - /api/v1/users/createuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-18T18:18:55.131Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\Workspace\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\Workspace\Fundoo_Notes\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (D:\Workspace\Fundoo_Notes\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (D:\Workspace\Fundoo_Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:141:14)
+    at _callee2$ (D:\Workspace\Fundoo_Notes\src\controllers\/user.controller.js:43:5)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-18T18:18:55.141Z"}
+info: Server started at http://localhost:4500/api/v1/ {"timestamp":"2024-08-18T18:22:55.741Z"}
+info: Connected to the database. {"timestamp":"2024-08-18T18:22:55.772Z"}
