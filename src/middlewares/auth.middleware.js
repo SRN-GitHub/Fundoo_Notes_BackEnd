@@ -1,32 +1,31 @@
+// auth.middleware.js
+
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 
-dotenv.config()
+dotenv.config();
 
-/**
- * Middleware to authenticate if user has a valid Authorization token
- * Authorization: Bearer <token>
- *
-//  * @param {Object} req
-//  * @param {Object} res
-//  * @param {Function} next
-//  */
-export const resetPassword = async (req, res, next) => {
+
+export const userAuth = async (req, res, next) => {
     try {
-      const { resetToken, newPassword } = req.body;
-      const response = await UserService.resetPassword(resetToken, newPassword);
+      let bearerToken = req.header('Authorization');
+      if (!bearerToken) {
+        throw {
+          code: HttpStatus.BAD_REQUEST,
+          message: 'Authorization token is required'
+        };
+      }
+      bearerToken = bearerToken.split(' ')[1];
   
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: response,
-        message: 'Password reset successful'
-      });
+      const decoded = jwt.verify(bearerToken, process.env.SECRET_KEY);
+      res.locals.user = decoded;
+      res.locals.token = bearerToken;
+      next();
     } catch (error) {
-      res.status(HttpStatus.BAD_REQUEST).json({
-        code: HttpStatus.BAD_REQUEST,
-        message: error.message
+      res.status(HttpStatus.UNAUTHORIZED).json({
+        code: HttpStatus.UNAUTHORIZED,
+        message: 'Invalid token or authentication failed'
       });
-      console.error('Reset password error:', error.message);
     }
   };
