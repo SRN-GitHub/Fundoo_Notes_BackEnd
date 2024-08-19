@@ -1,5 +1,5 @@
 import HttpStatus from 'http-status-codes';
-import { newNotes, getAllNote , getArchivedNotes as getArchivedNotesOk, getTrashedNotes as getTrashedNotesOk , updateNote as updateNoteService, deleteNote as deleteNoteService } from '../services/notes.service';
+import { newNotes, getAllNote,forgotPassword as forgotPasswordServices , getArchivedNotes as getArchivedNotesOk, getTrashedNotes as getTrashedNotesOk , updateNote as updateNoteService, deleteNote as deleteNoteService } from '../services/notes.service';
 
 // ^    CREATE NOTES >>>
 export const createNote = async (req, res, next) => {
@@ -103,21 +103,4 @@ export const getTrashedNotes = async (req, res, next) => {
         });
     }
 };
-
-// // &    FORGOT PASSWORD >>>
-// export const forgotPassword = async (req, res, next) => {
-//     try {
-//         const { email } = req.body;
-//         const resetToken = await forgotPasswordServices(email);
-//         res.status(HttpStatus.OK).json({
-//             code: HttpStatus.OK,
-//             data: { resetToken },
-//             message: 'Password reset token generated successfully'
-//         });
-//     } catch (error) {
-//         res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
-//             code: HttpStatus.INTERNAL_SERVER_ERROR,
-//             message: error.message
-//         });
-//     }
-// };
+ 

@@ -30,7 +30,7 @@ router.get('/archive', notesController.getArchivedNotes);
 
 
 //&    Route to Get Trash >>>
-router.get('/trash', notesController.getTrashedNotes);
+router.get('/trash',userAuth ,notesController.getTrashedNotes);
 
 
 

@@ -12,27 +12,21 @@ dotenv.config()
 //  * @param {Object} res
 //  * @param {Function} next
 //  */
-export const userAuth = async (req, res, next) => {
-  try {
-      let bearerToken = req.header('Authorization');
-      if (!bearerToken)
-          throw {
-              code: HttpStatus.BAD_REQUEST,
-              message: 'Authorization token is required'
-          };
-      bearerToken = bearerToken.split(' ')[1];
-
-      const { user } = await jwt.verify(bearerToken, process.env.SECRET_KEY);
-      res.locals.user = user;
-      res.locals.token = bearerToken;
-      next();
-  } catch (error) {
-      res.status(HttpStatus.UNAUTHORIZED).json({
-          code: HttpStatus.UNAUTHORIZED,
-          message: 'Invalid token or authentication failed'
+export const resetPassword = async (req, res, next) => {
+    try {
+      const { resetToken, newPassword } = req.body;
+      const response = await UserService.resetPassword(resetToken, newPassword);
+  
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: response,
+        message: 'Password reset successful'
       });
-  }
-};
-
-
-//*  TOKEN
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: error.message
+      });
+      console.error('Reset password error:', error.message);
+    }
+  };

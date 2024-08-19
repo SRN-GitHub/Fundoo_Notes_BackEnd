@@ -158,3 +158,203 @@ info: ::1 - - [18/Aug/2024:21:08:28 +0000] "POST /api/v1/users/forgotPassword HT
 
 info: ::1 - - [18/Aug/2024:21:08:34 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 500 67 "-" "PostmanRuntime/7.41.1"
 
+info: ::1 - - [18/Aug/2024:21:09:15 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:21:09:20 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:21:09:26 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:21:10:23 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:21:16:00 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:21:16:06 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:41:30 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:42:04 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:43:45 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 327 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:43:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 393 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:44:11 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 201 199 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:44:22 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:44:43 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:44:56 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:47:30 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:47:43 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:47:58 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:48:17 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:52:29 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:52:51 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:54:22 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - testuser@gmail.com [19/Aug/2024:08:55:20 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:03:40 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:04:08 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:04:19 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:04:30 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:07:27 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:07:43 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:09:50 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:10:09 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:11:01 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:12:10 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:12:35 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:12:42 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:15:23 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:22:52 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 500 70 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:23:25 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 500 70 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:14:33 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:14:51 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:17:11 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:17:35 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:19:55 +0000] "POST /api/v1/users/reset-Password HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:22:18 +0000] "POST /api/v1/users/forgot-Password HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:22:25 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:35:54 +0000] "POST /api/v1/users/reset-Password HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:36:40 +0000] "POST /api/v1/users/reset-Password HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:10:37:10 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:11:40:33 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:11:41:02 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:11:41:23 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:11:41:35 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:11:42:09 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:11:44:11 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:11:44:20 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:11:50:08 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:11:59:18 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:00:08 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:00:13 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:00:26 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:01:11 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:04:00 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:05:55 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:06:47 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:07:25 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:07:42 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:08:24 +0000] "POST /api/v1/users/login HTTP/1.1" 200 393 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:09:15 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:09:30 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:10:58 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:12:03 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:17:08 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 323 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:17:29 +0000] "POST /api/v1/users/login HTTP/1.1" 200 385 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:20:25 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 200 133 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:33:58 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:41:27 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 500 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:42:31 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:42:42 +0000] "GET /api/v1/notes/trash HTTP/1.1" 401 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:43:14 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 209 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:43:22 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 209 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:12:43:29 +0000] "GET /api/v1/notes/getAllNote HTTP/1.1" 200 713 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:13:37:31 +0000] "POST /api/v1/users/login HTTP/1.1" 200 385 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:13:39:17 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 39 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:13:39:41 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 39 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:13:39:57 +0000] "POST /api/v1/users/reset-Password HTTP/1.1" 400 55 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:17:31:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 385 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:17:31:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 385 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:21:26 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 39 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:21:38 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 39 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:21:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 607 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:23:43 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 326 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:24:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 610 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:25:36 +0000] "POST /api/v1/users/login HTTP/1.1" 401 75 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:26:17 +0000] "POST /api/v1/users/login HTTP/1.1" 401 75 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:26:22 +0000] "POST /api/v1/users/login HTTP/1.1" 401 75 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:26:47 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 326 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:26:51 +0000] "POST /api/v1/users/login HTTP/1.1" 401 75 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:27:59 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:28:24 +0000] "POST /api/v1/users/login HTTP/1.1" 401 75 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:28:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 627 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:18:29:28 +0000] "POST /api/v1/users/reset-Password HTTP/1.1" 400 55 "-" "PostmanRuntime/7.41.1"
+

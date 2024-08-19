@@ -1,7 +1,9 @@
 import notesModel from "../models/notes.model";
 import userModel from "../models/user.model";
 import crypto from 'crypto';
-import { getAllNotes } from "../controllers/notes.controller";
+import bcrypt from 'bcryptjs';
+// import { getAllNotes } from "../controllers/notes.controller";
+
 
 
 // ^    CREATE NOTE <<<
@@ -69,26 +71,58 @@ export const getTrashedNotes = async () => {
     }
 };
 
-//*     FORGOT PASSWORD & RESET TOKEN<<<
-export const forgotPassword = async (email) => {
-    try {
-      // Check if the user exists
-      const user = await userModel.findOne({ email });
-      if (!user) {
-        throw new Error('User with this email does not exist.');
-      }else{
-          // Generate a reset token
-          const resetToken = crypto.randomBytes(20).toString('hex');
-          // Store the token and its expiration in the database
-          user.resetPasswordToken = resetToken;
-          user.resetPasswordExpires = Date.now() + 3600000; // 1 hour from now
-      
-          await user.save();
-          return resetToken;
-      }
-      // Return the reset token (you may also want to send it via email in a real-world scenario)
-    } catch (error) {
-      console.error('Error during forgot password:', error.message, error.stack);
-      throw new Error('Unable to process forgot password request.');
-    }
-  };
+// ! OLD CODE
+// // * FORGOT PASSWORD & RESET TOKEN GENERATE <<<
+// export const forgotPassword = async (email) => {
+//     try {
+//         const user = await userModel.findOne({ email });
+//         if (!user) {
+//             throw new Error('User with this email does not exist.');
+//         }
+
+//         // Generate a reset token
+//         const resetToken = crypto.randomBytes(20).toString('hex');
+
+//         user.resetPasswordToken = resetToken;
+//         user.resetPasswordExpires = Date.now() + 3600000; // 1 hour from now
+
+//         await user.save();
+
+//         // Return the reset token
+//         return resetToken;
+//     } catch (error) {
+//         console.error('Error during forgot password:', error.message, error.stack);
+//         throw new Error('Unable to process forgot password request.');
+//     }
+// };
+
+// // * RESET PASSWORD <<<
+// export const resetPassword = async (token, newPassword) => {
+//     try {
+//         // Find the user by the reset token and check if the token is still valid
+//         const user = await userModel.findOne({
+//             resetPasswordToken: token,
+//             resetPasswordExpires: { $gt: Date.now() } // Ensure the token has not expired
+//         });
+
+//         if (!user) {
+//             throw new Error('Password reset token is invalid or has expired.');
+//         }
+
+//         // Hash the new password
+//         const hashedPassword = await bcrypt.hash(newPassword, 10);
+
+//         // Update the user's password and remove the reset token fields
+//         user.password = hashedPassword;
+//         user.resetPasswordToken = undefined;
+//         user.resetPasswordExpires = undefined;
+
+//         // Save the updated user
+//         await user.save();
+
+//         return user;
+//     } catch (error) {
+//         console.error('Error during password reset:', error.message, error.stack);
+//         throw new Error('Unable to reset password.');
+//     }
+// };
