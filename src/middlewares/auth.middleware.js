@@ -1,26 +1,24 @@
-// auth.middleware.js
-
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 
+
 dotenv.config();
 
-
-export const userAuth = async (req, res, next) => {
+//&  AUTHENTICATION >>>
+const authenticateToken = (secretKey) => {
+  return async (req, res, next) => {
     try {
       let bearerToken = req.header('Authorization');
       if (!bearerToken) {
-        throw {
+        return res.status(HttpStatus.BAD_REQUEST).json({
           code: HttpStatus.BAD_REQUEST,
           message: 'Authorization token is required'
-        };
+        });
       }
       bearerToken = bearerToken.split(' ')[1];
-  
-      const decoded = jwt.verify(bearerToken, process.env.SECRET_KEY);
-      res.locals.user = decoded;
-      res.locals.token = bearerToken;
+      const decoded = jwt.verify(bearerToken, secretKey);
+      res.locals.user = decoded;  // Store the decoded token information
       next();
     } catch (error) {
       res.status(HttpStatus.UNAUTHORIZED).json({
@@ -29,3 +27,7 @@ export const userAuth = async (req, res, next) => {
       });
     }
   };
+};
+
+export const userAuth = authenticateToken(process.env.SECRET_KEY);
+export const resetAuth = authenticateToken(process.env.RESET_SECRET_KEY);

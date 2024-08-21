@@ -1,8 +1,7 @@
 import express from 'express';
-import { userAuth } from '../middlewares/auth.middleware';
 // import * as userController from '../controllers/user.controller'; 
 import * as notesController from '../controllers/notes.controller';
-
+import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
@@ -11,22 +10,22 @@ router.get('/', (req, res) => {
   });
 
 //^    Route to CREATE Notes >>>
-router.post('/createNote', userAuth, notesController.createNote);
+router.post('/createNote',userAuth ,notesController.createNote);
 
 //&    Route to GET ALL Notes >>>
-router.get('/getAllNote',notesController.getAllNotes);
+router.get('/getAllNote',userAuth ,notesController.getAllNotes);
 
 
 //*    Route to Update Notes >>>
-router.put('/updateNote/:id', notesController.updateNote);
+router.put('/updateNote/:id',userAuth ,notesController.updateNote);
 
 
 //!    Route to DELETE Notes >>>
-router.delete('/deleteNote/:id', notesController.deleteNote);
+router.delete('/deleteNote/:id',userAuth ,notesController.deleteNote);
 
 
 //&    Route to Get Archive >>>
-router.get('/archive', notesController.getArchivedNotes);
+router.get('/archive',userAuth ,notesController.getArchivedNotes);
 
 
 //&    Route to Get Trash >>>

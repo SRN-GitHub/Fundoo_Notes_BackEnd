@@ -1,6 +1,9 @@
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import * as UserService from '../services/user.service';
+
+
+
 // import { json } from 'express';
 // import { http } from 'winston';
 // import { token } from 'morgan';
@@ -68,10 +71,35 @@ export const forgotPassword = async (req, res, next) => {
 };
 
 //* RESET PASSWORD >>>
+// export const resetPassword = async (req, res, next) => {
+//   try {
+//     const { resetToken, newPassword } = req.body;
+//     const data = await UserService.resetPassword(resetToken, newPassword);
+//     res.status(HttpStatus.OK).json({
+//       code: HttpStatus.OK,
+//       message: data.message
+//     });
+//   } catch (error) {
+//     next(error);
+//   }
+// };
+    //^ new
 export const resetPassword = async (req, res, next) => {
   try {
-    const { resetToken, newPassword } = req.body;
-    const data = await UserService.resetPassword(resetToken, newPassword);
+    // Extract the resetToken from the Authorization header
+    const authHeader = req.headers.authorization;
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+      return res.status(HttpStatus.UNAUTHORIZED).json({
+        code: HttpStatus.UNAUTHORIZED,
+        message: 'Authorization header missing or invalid'
+      });
+    }
+
+    const resetToken = authHeader.split(' ')[1];
+    const { newPassword } = req.body;
+
+    const data = await UserService.resetPassword(newPassword, resetToken);
+
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       message: data.message
@@ -80,3 +108,5 @@ export const resetPassword = async (req, res, next) => {
     next(error);
   }
 };
+
+//!!  END`

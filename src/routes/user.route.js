@@ -1,8 +1,8 @@
 import express from 'express';
 import * as userController from '../controllers/user.controller';
+import { resetAuth } from '../middlewares/auth.middleware';
 import { newUserValidator } from '../validators/user.validator';
-import { userAuth } from '../middlewares/auth.middleware';
-
+// import { forgotPassword } from '../controllers/user.controller';
 
 const router = express.Router();
 
@@ -14,10 +14,10 @@ router.post('/createuser', newUserValidator, userController.newUser);
 router.post('/login', userController.loginUser);
 
 //*  Forgot Password >>>
-router.post('/forgot-password', userAuth, userController.forgotPassword);
+router.post('/forgot-Password', userController.forgotPassword);
 
 //*  Reset Passowrd >>>
-router.post('/reset-password', userAuth, userController.resetPassword);
+router.post('/reset-Password',resetAuth , userController.resetPassword);
 
 
 //& Route to get a single user by their user id >>>

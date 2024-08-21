@@ -2,6 +2,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import User from '../models/user.model';
 import HttpStatus from 'http-status-codes';
+
 // import router from '../routes/user.route';
 // import { error, id } from '@hapi/joi/lib/base';
 // import { token } from 'morgan';
@@ -47,21 +48,23 @@ export const generateResetToken = async (Email) => {
     throw new Error('User Not Found');
   }
 
-  // Generate a reset token (JWT)
   const resetToken = jwt.sign(
     { userId: user.id, Email: user.Email },
-    process.env.SECRET_KEY,
-    { expiresIn: '1h' } // Token expires in 1 hour
+    process.env.RESET_SECRET_KEY,
+    { expiresIn: '1h' }
   );
 
   return { resetToken };
 };
-    //& this is to reset the password
-export const resetPassword = async (resetToken, newPassword) => {
-  try {
-    const decoded = jwt.verify(resetToken, process.env.SECRET_KEY);
-    const user = await User.findById(decoded.userId);
 
+                  //&  RESET PASSWORD token               
+//^ NEW
+export const resetPassword = async (newPassword, resetToken) => {
+  try {
+    const decoded = jwt.verify(resetToken, process.env.RESET_SECRET_KEY);
+    console.log("Decoded Token Data:", decoded);
+
+    const user = await User.findById(decoded.userId);
     if (!user) {
       throw new Error('User Not Found');
     }
@@ -74,9 +77,15 @@ export const resetPassword = async (resetToken, newPassword) => {
 
     return { message: 'Password updated successfully' };
   } catch (error) {
-    throw new Error('Invalid or expired reset token');
+    console.error("Error during password reset:", error);
+    if (error.name === 'JsonWebTokenError' || error.name === 'TokenExpiredError') {
+      throw new Error('Invalid or expired reset token');
+    }
+    throw new Error('An unexpected error occurred');
   }
-};
+}
+
+
 
 
 //^ EXTRA ____________________
