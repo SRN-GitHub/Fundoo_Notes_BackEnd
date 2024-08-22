@@ -4753,3 +4753,139 @@ info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-
 info: Connected to the database. {"timestamp":"2024-08-21T10:52:56.422Z"}
 info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-21T10:54:23.469Z"}
 info: Connected to the database. {"timestamp":"2024-08-21T10:54:23.496Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-21T13:16:38.097Z"}
+info: Connected to the database. {"timestamp":"2024-08-21T13:16:38.119Z"}
+error: 
+    status - 500 
+    message - Error: Failed to send reset email
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\utils\/sendMail.js:32:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-21T13:18:16.084Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-22T09:12:30.213Z"}
+info: Connected to the database. {"timestamp":"2024-08-22T09:12:30.250Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T09:12:59.311Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T09:18:33.273Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T09:18:49.637Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-22T10:01:15.516Z"}
+info: Connected to the database. {"timestamp":"2024-08-22T10:01:15.537Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T10:03:27.187Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T10:11:11.670Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-22T10:11:29.391Z"}
+info: Connected to the database. {"timestamp":"2024-08-22T10:11:29.412Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T10:12:00.873Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T10:12:08.064Z"}
+error: 
+    status - 500 
+    message - Error: Failed to send reset email
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\utils\/sendMail.js:28:13)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T10:12:24.349Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-22T10:15:32.670Z"}
+info: Connected to the database. {"timestamp":"2024-08-22T10:15:32.742Z"}

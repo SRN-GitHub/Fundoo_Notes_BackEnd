@@ -62,7 +62,7 @@ export const generateResetToken = async (Email) => {
 export const resetPassword = async (newPassword, resetToken) => {
   try {
     const decoded = jwt.verify(resetToken, process.env.RESET_SECRET_KEY);
-    console.log("Decoded Token Data:", decoded);
+    // console.log("Decoded Token Data:", decoded);
 
     const user = await User.findById(decoded.userId);
     if (!user) {
@@ -77,7 +77,7 @@ export const resetPassword = async (newPassword, resetToken) => {
 
     return { message: 'Password updated successfully' };
   } catch (error) {
-    console.error("Error during password reset:", error);
+    // console.error("Error during password reset:", error);
     if (error.name === 'JsonWebTokenError' || error.name === 'TokenExpiredError') {
       throw new Error('Invalid or expired reset token');
     }
