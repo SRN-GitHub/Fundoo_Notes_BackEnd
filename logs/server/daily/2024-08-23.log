@@ -6,3 +6,22 @@ info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-
 info: Connected to the database. {"timestamp":"2024-08-23T09:28:04.502Z"}
 info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-23T09:28:26.543Z"}
 info: Connected to the database. {"timestamp":"2024-08-23T09:28:26.564Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-23T10:43:21.800Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T10:43:21.840Z"}
+error: Failed to read Swagger file: ENOENT: no such file or directory, open 'D:\Workspace\Fundoo_Notes\swagger\swaggerFile.json' {"timestamp":"2024-08-23T10:54:40.149Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-23T10:54:40.165Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T10:54:40.193Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-23T10:58:17.148Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T10:58:17.173Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T11:20:17.072Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T11:22:00.391Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T11:22:42.994Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T11:23:03.808Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T11:24:46.280Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T11:24:57.813Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-23T11:27:58.682Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T11:27:58.708Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-23T11:46:04.240Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T11:46:04.265Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-23T11:56:05.445Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T11:56:05.466Z"}

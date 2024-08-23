@@ -24,6 +24,7 @@
 import express from 'express';
 import userRoute from './user.route';
 import notesRoute from './notes.route';
+// import swaggerUi from 'swagger-ui-express';
 
 const router = express.Router();
 

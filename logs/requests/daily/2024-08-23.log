@@ -42,3 +42,23 @@ info: ::1 - - [23/Aug/2024:09:32:54 +0000] "POST /api/v1/notes/createNote HTTP/1
 
 info: ::1 - - [23/Aug/2024:09:33:29 +0000] "GET /api/v1/notes/getAllNote HTTP/1.1" 200 407 "-" "PostmanRuntime/7.41.1"
 
+info: ::1 - - [23/Aug/2024:11:17:12 +0000] "GET /api/v1/api-docs HTTP/1.1" 404 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Aug/2024:11:17:13 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Aug/2024:11:17:49 +0000] "GET /api/v1/api-docs HTTP/1.1" 404 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Aug/2024:11:59:42 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Aug/2024:11:59:42 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Aug/2024:11:59:42 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 13068 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Aug/2024:11:59:43 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 152071 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Aug/2024:11:59:43 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230293 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Aug/2024:11:59:43 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1452753 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Aug/2024:11:59:43 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+

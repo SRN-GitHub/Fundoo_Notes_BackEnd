@@ -6,7 +6,6 @@ import { newUserValidator } from '../validators/user.validator';
 
 const router = express.Router();
 
-
 //^ Route to create a new user
 router.post('/createuser', newUserValidator, userController.newUser);
 
@@ -14,11 +13,10 @@ router.post('/createuser', newUserValidator, userController.newUser);
 router.post('/login', userController.loginUser);
 
 //*  Forgot Password >>>
-router.post('/forgot-Password', userController.forgotPassword);
+router.post('/forgot-password', userController.forgotPassword);
 
 //*  Reset Passowrd >>>
-router.post('/reset-Password',resetAuth , userController.resetPassword);
-
+router.post('/reset-password', resetAuth, userController.resetPassword);
 
 //& Route to get a single user by their user id >>>
 // router.get('/:_id', userController.getUser);
@@ -30,7 +28,6 @@ router.post('/reset-Password',resetAuth , userController.resetPassword);
 // router.put('/:_id', userController.updateUser);
 
 //! Route to delete a single user by their user id >>>
-// router.delete('/:_id', userController.deleteUser);   
-
+// router.delete('/:_id', userController.deleteUser);
 
 export default router;
