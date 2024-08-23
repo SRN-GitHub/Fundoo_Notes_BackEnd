@@ -4,3 +4,5 @@ info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-
 info: Connected to the database. {"timestamp":"2024-08-23T06:39:17.976Z"}
 info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-23T09:28:04.466Z"}
 info: Connected to the database. {"timestamp":"2024-08-23T09:28:04.502Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-23T09:28:26.543Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T09:28:26.564Z"}
