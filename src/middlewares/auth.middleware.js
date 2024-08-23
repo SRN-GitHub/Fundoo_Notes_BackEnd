@@ -18,7 +18,7 @@ const authenticateToken = (secretKey) => {
       }
       bearerToken = bearerToken.split(' ')[1];
       const decoded = jwt.verify(bearerToken, secretKey);
-      res.locals.user = decoded;  // Store the decoded token information
+      req.body.createdBy = decoded.userId;  // Store the decoded token information
       next();
     } catch (error) {
       res.status(HttpStatus.UNAUTHORIZED).json({

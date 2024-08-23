@@ -59,18 +59,15 @@ export const generateResetToken = async (Email) => {
 
                   //&  RESET PASSWORD token               
 //^ NEW
-export const resetPassword = async (newPassword, resetToken) => {
+export const resetPassword = async (userDetails) => {
   try {
-    const decoded = jwt.verify(resetToken, process.env.RESET_SECRET_KEY);
-    // console.log("Decoded Token Data:", decoded);
-
-    const user = await User.findById(decoded.userId);
+    const user = await User.findById({ _id: userDetails.createdBy });
     if (!user) {
       throw new Error('User Not Found');
     }
 
     const saltRound = 12;
-    const hashedPassword = await bcrypt.hash(newPassword, saltRound);
+    const hashedPassword = await bcrypt.hash(userDetails.newPassword, saltRound);
 
     user.Password = hashedPassword;
     await user.save();

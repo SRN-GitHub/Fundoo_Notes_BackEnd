@@ -4889,3 +4889,73 @@ error:
    {"timestamp":"2024-08-22T10:12:24.349Z"}
 info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-22T10:15:32.670Z"}
 info: Connected to the database. {"timestamp":"2024-08-22T10:15:32.742Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-22T10:22:12.477Z"}
+info: Connected to the database. {"timestamp":"2024-08-22T10:22:12.501Z"}
+error: 
+    status - 500 
+    message - Error: Failed to send reset email
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\utils\/sendMail.js:28:13)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T10:22:27.539Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-22T10:25:58.860Z"}
+info: Connected to the database. {"timestamp":"2024-08-22T10:25:58.889Z"}
+error: 
+    status - 500 
+    message - Error: Failed to send reset email
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\utils\/sendMail.js:30:13)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T10:26:16.573Z"}
+error: 
+    status - 500 
+    message - Error: Failed to send reset email
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\utils\/sendMail.js:30:13)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T10:28:03.295Z"}
+error: 
+    status - 500 
+    message - Error: Failed to send reset email
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\utils\/sendMail.js:30:13)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _throw (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-Password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-22T10:29:00.317Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-22T10:41:36.915Z"}
+info: Connected to the database. {"timestamp":"2024-08-22T10:41:36.942Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-22T11:12:04.144Z"}
+info: Connected to the database. {"timestamp":"2024-08-22T11:12:04.227Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-23T06:37:29.592Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T06:37:29.635Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-23T06:39:17.948Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T06:39:17.976Z"}
+info: Server started at http://http://localhost:4500/api/v1/ {"timestamp":"2024-08-23T09:28:04.466Z"}
+info: Connected to the database. {"timestamp":"2024-08-23T09:28:04.502Z"}

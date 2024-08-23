@@ -73,20 +73,7 @@ export const forgotPassword = async (req, res, next) => {
     //^ new
 export const resetPassword = async (req, res, next) => {
   try {
-    // Extract the resetToken from the Authorization header
-    const authHeader = req.headers.authorization;
-    if (!authHeader || !authHeader.startsWith('Bearer ')) {
-      return res.status(HttpStatus.UNAUTHORIZED).json({
-        code: HttpStatus.UNAUTHORIZED,
-        message: 'Authorization header missing or invalid'
-      });
-    }
-
-    const resetToken = authHeader.split(' ')[1];
-    const { newPassword } = req.body;
-
-    const data = await UserService.resetPassword(newPassword, resetToken);
-
+    const data = await UserService.resetPassword(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       message: data.message

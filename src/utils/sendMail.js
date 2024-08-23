@@ -1,3 +1,4 @@
+import { config } from 'dotenv';
 import nodemailer from 'nodemailer';
 
 
@@ -5,12 +6,13 @@ export const sendResetPasswordEmail = async (email, resetToken, FirstNameUser) =
     try {
       const transporter = nodemailer.createTransport({
         service: 'gmail',
+        secure: true,
         auth: {
           user: process.env.EMAIL,
           pass: process.env.EMAIL_PASSWORD,
         },
       });
-  
+
       const mailOptions = {
         from: process.env.EMAIL,
         to: email,
@@ -18,7 +20,7 @@ export const sendResetPasswordEmail = async (email, resetToken, FirstNameUser) =
         text: `You requested a password reset. Use this token: ${resetToken}. It is valid for 1 hour.`,
         html: `<p>Hello ${FirstNameUser},</p><p>You requested a password reset. Use this token: <strong>${resetToken}</strong>. It is valid for 1 hour.</p>`,
       };
-  
+
       const info = await transporter.sendMail(mailOptions);
       console.log('Email sent: ' + info.response);
   
@@ -29,15 +31,14 @@ export const sendResetPasswordEmail = async (email, resetToken, FirstNameUser) =
     }
   };
   
-
-//*                 <<<< TEST MAIL >>>>
+//*                 <<<< ONLY FOR TESTING PURPOSE >>>>
 const testSendEmail = async () => {
     try {
       const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
           user: 'shankharanjannag21@gmail.com', // Use your email
-          pass: 'nuhn fnbx lmox ykmg', // Use your app password
+        //   pass: 'nuhn fnbx lmox ykmg', // Use your app password
         },
       });
   
@@ -54,6 +55,4 @@ const testSendEmail = async () => {
       console.error('Error sending test email:', error);
     }
   };
-  
-  testSendEmail();
-  
+//   testSendEmail();

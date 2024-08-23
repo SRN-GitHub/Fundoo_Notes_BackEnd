@@ -18,9 +18,9 @@ export const newNotes = async (body) => {
 };
 
 // &    GET ALL NOTE <<<
-export const getAllNote = async () => {
+export const getAllNote = async (createdBy) => {
     try {
-        const notes = await notesModel.find({ isArchive: false, isInTrash: false });
+        const notes = await notesModel.find({ isArchive: false, isInTrash: false, createdBy: createdBy });
         return notes;
     } catch (error) {
         console.error('Error occurred while retrieving notes:', error.message, error.stack);

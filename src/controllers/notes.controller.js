@@ -21,7 +21,7 @@ export const createNote = async (req, res, next) => {
 // &    GET ALL NOTES >>>
 export const getAllNotes = async (req, res, next) => {
     try {
-        const notes = await getAllNote();
+        const notes = await getAllNote(req.body.createdBy);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: notes,

@@ -1,3 +1,4 @@
+import { required } from '@hapi/joi';
 import mongoose from 'mongoose';
 
 
@@ -17,8 +18,14 @@ const notesSchema = new mongoose.Schema(
         isInTrash: {
             type: Boolean,
             default: false,
+        },
+            createdBy: {
+                type: mongoose.Schema.Types.ObjectId,
+                required: true
+            },
+            
+            
         }
-    }
 );
 
 const Notes = mongoose.model('Notes', notesSchema);
