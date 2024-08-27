@@ -1,0 +1,113 @@
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T06:49:01.293Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T06:49:01.447Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T06:54:08.335Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T06:54:08.374Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T06:56:03.958Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T06:56:03.997Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T10:07:06.037Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T10:07:06.059Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T10:57:06.281Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T10:57:06.307Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T10:57:06.517Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T10:57:06.539Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T10:59:22.656Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T10:59:22.681Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T10:59:22.772Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T10:59:22.798Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:01:19.380Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:01:19.420Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:01:19.502Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:01:19.517Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:04:52.181Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:04:52.265Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:04:52.364Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:06:52.446Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:06:52.474Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:06:52.545Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:09:33.946Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:09:34.013Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:09:34.135Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:10:55.269Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:10:55.293Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:10:55.339Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:14:11.258Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:14:11.338Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:14:11.416Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:54:56.031Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:54:56.094Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:56:21.755Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:56:21.814Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:59:03.844Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:59:03.905Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:59:20.044Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:59:20.102Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T11:59:43.337Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T11:59:43.395Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T12:00:08.809Z"}
+info: Connected to the database. {"timestamp":"2024-08-27T12:00:08.885Z"}

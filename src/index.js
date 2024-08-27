@@ -1,3 +1,4 @@
+// index.js
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -50,8 +51,8 @@ app.use(morgan('combined', { stream: logStream }));
 database();
 
 // Route handling
-app.use(`/api/${api_version}`, routes());
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc)); // Correct Swagger UI setup
+app.use(`/api/${api_version}`, routes());
 
 // Error handling middleware
 app.use(notFound);
@@ -62,5 +63,6 @@ app.use(genericErrorHandler);
 app.listen(port, () => {
   logger.info(`Server started at http://${host}:${port}/api/${api_version}/`);
 });
+
 
 export default app;

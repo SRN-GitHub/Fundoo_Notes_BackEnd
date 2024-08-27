@@ -1,41 +1,49 @@
 import { expect } from 'chai';
 import request from 'supertest';
 import mongoose from 'mongoose';
-
 import app from '../../src/index';
 
-describe('User APIs Test', () => {
-  before((done) => {
-    const clearCollections = () => {
-      for (const collection in mongoose.connection.collections) {
-        mongoose.connection.collections[collection].deleteOne(() => {});
-      }
-    };
-
-    const mongooseConnect = async () => {
-      await mongoose.connect(process.env.DATABASE_TEST);
-      clearCollections();
-    };
-
+describe('User API - Create User', () => {
+  before(async () => {
     if (mongoose.connection.readyState === 0) {
-      mongooseConnect();
-    } else {
-      clearCollections();
+      await mongoose.connect(process.env.DATABASE, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+      });
     }
 
-    done();
+    // Ensure the connection is established before clearing collections
+    await mongoose.connection.once('open', async () => {
+      await mongoose.connection.db.dropDatabase(); // Drops the whole database instead of clearing individual collections
+    });
   });
 
-  describe('GET /users', () => {
-    it('should return empty array', (done) => {
-      request(app)
-        .get('/api/v1/users')
-        .end((err, res) => {
-          expect(res.statusCode).to.be.equal(200);
-          expect(res.body.data).to.be.an('array');
+  after(async () => {
+    await mongoose.disconnect();
+  });
 
-          done();
-        });
-    });
+  it('should create a new user and return 201 status with success message', (done) => {
+    const newUser = {
+      FirstName: 'Sajan',
+      LastName: 'Kumar',
+      Email: 'sajankumar@gmail.com',
+      Age: 30,
+      Password: '12345678@sajan'
+    };
+
+    request(app)
+      .post('/api/v1/users/createuser')
+      .send(newUser)
+      .expect(201)
+      .end((err, res) => {
+        if (err) {
+          console.error('Response body:', res.body);
+          console.error(`Error: expected 201 "Created", got ${res.statusCode} "${res.statusMessage}"`);
+          return done(err);
+        }
+        expect(res.body).to.have.property('message').that.equals('User created successfully');
+        console.log(res.body);
+        done();
+      });
   });
 });

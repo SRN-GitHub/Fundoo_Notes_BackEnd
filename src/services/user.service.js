@@ -84,7 +84,6 @@ export const resetPassword = async (userDetails) => {
 
 
 
-
 //^ EXTRA ____________________
 // get all users
 // export const getAllUsers = async () => {

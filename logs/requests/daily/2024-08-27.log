@@ -1,0 +1,52 @@
+info: ::1 - - [27/Aug/2024:06:57:05 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Aug/2024:06:57:06 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Aug/2024:06:57:06 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Aug/2024:06:57:06 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Aug/2024:06:57:06 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Aug/2024:06:57:08 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Aug/2024:10:08:03 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Aug/2024:10:08:03 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Aug/2024:10:08:03 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Aug/2024:10:08:03 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:10:57:06 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:10:57:06 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:10:59:22 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:10:59:22 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:01:19 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:01:19 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:04:52 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:06:52 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:09:34 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:10:55 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:14:11 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:56:22 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:59:04 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:59:20 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:59:43 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:00:09 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+

@@ -4495,3 +4495,189 @@ TypeError: (0 , _swaggerUiExpress.default) is not a function
     at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49 {"date":"Fri Aug 23 2024 16:54:57 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":308229.218},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18262399,"external":21332839,"heapTotal":88223744,"heapUsed":51637400,"rss":122433536},"pid":11704,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _swaggerUiExpress.default) is not a function\n    at routes (D:\\Workspace\\Fundoo_Notes\\src\\routes\\/index.js:54:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:53:38)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-08-23T11:24:57.761Z","trace":[{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\src\\routes\\/index.js","function":"routes","line":54,"method":null,"native":false},{"column":38,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":53,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-23T12:12:31.023Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-23T12:13:49.373Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 54
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-23T13:05:15.940Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 55
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-23T13:10:18.272Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 55
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-23T13:17:42.645Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 76
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/updateNote/66c88d98b17a255424ad3c89 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-08-23T13:33:43.050Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T10:57:06.517Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T10:57:06.539Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T10:59:22.772Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T10:59:22.798Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:01:19.502Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:01:19.517Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:04:52.364Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:06:52.545Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:09:34.135Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:10:55.339Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Age" is required 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-27T11:14:11.416Z"}
+error: uncaughtException: re is not defined
+ReferenceError: re is not defined
+    at Test.<anonymous> (D:\Workspace\Fundoo_Notes\tests\integration\/user.test.js:45:21)
+    at Test.assert (D:\Workspace\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Workspace\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:632:28)
+    at Server.emit (node:events:518:28)
+    at emitCloseNT (node:net:2279:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Aug 27 2024 17:29:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":655872.75},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Workspace\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha.js","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18270946,"external":20812532,"heapTotal":92172288,"heapUsed":48250216,"rss":128913408},"pid":25780,"uid":null,"version":"v20.11.1"},"stack":"ReferenceError: re is not defined\n    at Test.<anonymous> (D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js:45:21)\n    at Test.assert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:632:28)\n    at Server.emit (node:events:518:28)\n    at emitCloseNT (node:net:2279:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2024-08-27T11:59:04.376Z","trace":[{"column":21,"file":"D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":632,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":518,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2279,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
