@@ -2590,3 +2590,142 @@ info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:59:43 +0000] "POST /api/v1/users/crea
 
 info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:00:09 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:17:25 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:18:00 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:21:28 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:21:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:27:44 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:27:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:27:47 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected { code: 200, …(1) } to have property 'data'
+AssertionError: expected { code: 200, …(1) } to have property 'data'
+    at Test.<anonymous> (D:\Workspace\Fundoo_Notes\tests\integration\/user.test.js:106:36)
+    at Test.assert (D:\Workspace\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Workspace\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:632:28)
+    at Server.emit (node:events:518:28)
+    at emitCloseNT (node:net:2279:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Aug 27 2024 17:57:47 GMT+0530 (India Standard Time)","error":{"actual":{"code":200,"message":"Reset token generated and email sent successfully"},"message":"expected { code: 200, …(1) } to have property 'data'","name":"AssertionError","showDiff":false,"stack":"AssertionError: expected { code: 200, …(1) } to have property 'data'\n    at Test.<anonymous> (D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js:106:36)\n    at Test.assert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:632:28)\n    at Server.emit (node:events:518:28)\n    at emitCloseNT (node:net:2279:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":657595.734},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Workspace\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha.js","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18293647,"external":20836678,"heapTotal":93351936,"heapUsed":58995568,"rss":129966080},"pid":21584,"uid":null,"version":"v20.11.1"},"stack":"AssertionError: expected { code: 200, …(1) } to have property 'data'\n    at Test.<anonymous> (D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js:106:36)\n    at Test.assert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:632:28)\n    at Server.emit (node:events:518:28)\n    at emitCloseNT (node:net:2279:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":36,"file":"D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":106,"method":null,"native":false},{"column":6,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":632,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":518,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2279,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:30:41 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:30:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:33:40 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:33:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:33:43 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected { code: 200, …(1) } to have property 'data'
+AssertionError: expected { code: 200, …(1) } to have property 'data'
+    at Test.<anonymous> (D:\Workspace\Fundoo_Notes\tests\integration\/user.test.js:106:36)
+    at Test.assert (D:\Workspace\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Workspace\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:632:28)
+    at Server.emit (node:events:518:28)
+    at emitCloseNT (node:net:2279:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Aug 27 2024 18:03:43 GMT+0530 (India Standard Time)","error":{"actual":{"code":200,"message":"Reset token generated and email sent successfully"},"message":"expected { code: 200, …(1) } to have property 'data'","name":"AssertionError","showDiff":false,"stack":"AssertionError: expected { code: 200, …(1) } to have property 'data'\n    at Test.<anonymous> (D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js:106:36)\n    at Test.assert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:632:28)\n    at Server.emit (node:events:518:28)\n    at emitCloseNT (node:net:2279:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":657951.906},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Workspace\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha.js","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18293652,"external":20836683,"heapTotal":92561408,"heapUsed":63787160,"rss":129826816},"pid":2596,"uid":null,"version":"v20.11.1"},"stack":"AssertionError: expected { code: 200, …(1) } to have property 'data'\n    at Test.<anonymous> (D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js:106:36)\n    at Test.assert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:632:28)\n    at Server.emit (node:events:518:28)\n    at emitCloseNT (node:net:2279:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":36,"file":"D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":106,"method":null,"native":false},{"column":6,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":632,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":518,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2279,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:35:02 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:35:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:35:05 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:35:46 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:35:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:35:48 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:40:44 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:40:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:40:46 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:40:46 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 401 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:44:52 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:44:53 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:44:57 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:44:57 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 401 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:45:18 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:45:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:45:21 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:45:21 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 401 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:03:01 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:03:01 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:03:03 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:03:03 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 401 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:04:26 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:04:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:04:29 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:04:29 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 401 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:14:43 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:14:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:14:45 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:14:45 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 401 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:14:58 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:14:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:15:01 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:15:01 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 401 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:16:46 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:16:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:16:49 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:16:49 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:22:47 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:22:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:22:51 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'token')
+TypeError: Cannot read properties of undefined (reading 'token')
+    at Test.<anonymous> (D:\Workspace\Fundoo_Notes\tests\integration\/user.test.js:105:34)
+    at Test.assert (D:\Workspace\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Workspace\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:632:28)
+    at Server.emit (node:events:518:28)
+    at emitCloseNT (node:net:2279:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Aug 27 2024 18:52:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":660899.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Workspace\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha.js","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18293652,"external":20836683,"heapTotal":93351936,"heapUsed":58923776,"rss":131923968},"pid":13896,"uid":null,"version":"v20.11.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'token')\n    at Test.<anonymous> (D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js:105:34)\n    at Test.assert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:632:28)\n    at Server.emit (node:events:518:28)\n    at emitCloseNT (node:net:2279:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":105,"method":null,"native":false},{"column":6,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":632,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":518,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2279,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:24:54 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:24:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:13:24:57 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+

@@ -63,6 +63,7 @@ export const forgotPassword = async (req, res, next) => {
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       message: 'Reset token generated and email sent successfully',
+      reset_token:resetToken
     });
   } catch (error) {
     next(error);

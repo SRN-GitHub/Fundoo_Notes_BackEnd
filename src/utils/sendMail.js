@@ -31,28 +31,28 @@
       }
     };
     
-  //*                 <<<< ONLY FOR TESTING PURPOSE >>>>
-  const testSendEmail = async () => {
-      try {
-        const transporter = nodemailer.createTransport({
-          service: 'gmail',
-          auth: {
-            user: 'shankharanjannag21@gmail.com', // Use your email
-          //   pass: 'nuhn fnbx lmox ykmg', // Use your app password
-          },
-        });
+  //*                 ___<<<< ONLY FOR TESTING PURPOSE >>>>___
+  // const testSendEmail = async () => {
+  //     try {
+  //       const transporter = nodemailer.createTransport({
+  //         service: 'gmail',
+  //         auth: {
+  //           user: 'shankharanjannag21@gmail.com', // Use your email
+  //         //   pass: 'nuhn fnbx lmox ykmg', // Use your app password
+  //         },
+  //       });
     
-        const mailOptions = {
-          from: 'shankharanjannag21@gmail.com',
-          to: 'shankharanjannag21@gmail.com',
-          subject: 'Test Email',
-          text: 'This is a test email.',
-        };
+  //       const mailOptions = {
+  //         from: 'shankharanjannag21@gmail.com',
+  //         to: 'shankharanjannag21@gmail.com',
+  //         subject: 'Test Email',
+  //         text: 'This is a test email.',
+  //       };
     
-        const info = await transporter.sendMail(mailOptions);
-        console.log('Test email sent: ' + info.response);
-      } catch (error) {
-        console.error('Error sending test email:', error);
-      }
-    };
+  //       const info = await transporter.sendMail(mailOptions);
+  //       console.log('Test email sent: ' + info.response);
+  //     } catch (error) {
+  //       console.error('Error sending test email:', error);
+  //     }
+  //   };
   //   testSendEmail();
