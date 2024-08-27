@@ -117,6 +117,7 @@ info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-
 info: Connected to the database. {"timestamp":"2024-08-27T12:18:00.046Z"}
 info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T12:21:27.985Z"}
 info: Connected to the database. {"timestamp":"2024-08-27T12:21:28.009Z"}
+<<<<<<< HEAD
 info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T12:27:43.661Z"}
 info: Connected to the database. {"timestamp":"2024-08-27T12:27:43.691Z"}
 info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T12:30:41.293Z"}
@@ -147,3 +148,5 @@ info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-
 info: Connected to the database. {"timestamp":"2024-08-27T13:22:47.411Z"}
 info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-27T13:24:54.108Z"}
 info: Connected to the database. {"timestamp":"2024-08-27T13:24:54.134Z"}
+=======
+>>>>>>> c5961ad02b0bf404609f01831abda3d101de2400
