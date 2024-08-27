@@ -107,7 +107,7 @@ describe('User API', () => {
         });
     });
   });
-
 });
 
+console.log("Hello")
 export { loginToken };
