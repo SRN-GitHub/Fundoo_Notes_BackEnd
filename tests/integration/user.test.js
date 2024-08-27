@@ -103,38 +103,11 @@ describe('User API', () => {
           }      
           // Store the token for future use
           forgetToken = res.body.reset_token;
-          console.log(forgetToken);
           done();
         });
     });
   });
 
-  // describe('Reset Password', () => {
-  //   it('should reset the password successfully', (done) => {
-  //     const resetPasswordDetails = {
-  //       token: forgetToken, // Reset token obtained from forgot-password
-  //       newPassword: '12345678@newPass',
-  //     };
-  
-  //     request(app)
-  //       .post('/api/v1/users/reset-password')
-  //       .send(resetPasswordDetails) // Send token and new password in the body
-  //       .expect(200)
-  //       .end((err, res) => {
-  //         console.log('Reset Password Response Status:', res.status);
-  //         console.log('Reset Password Response Body:', res.body);
-  
-  //         if (err) {
-  //           console.error('Error:', err.message);
-  //           return done(err);
-  //         }
-  
-  //         expect(res.body).to.have.property('message').that.equals('Password updated successfully');
-  //         done();
-  //       });
-  //   });
-  // });
 });
-
 
 export { loginToken };
