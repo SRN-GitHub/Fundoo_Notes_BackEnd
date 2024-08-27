@@ -50,3 +50,11 @@ info: ::ffff:127.0.0.1 - - [27/Aug/2024:11:59:43 +0000] "POST /api/v1/users/crea
 
 info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:00:09 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:17:25 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:18:00 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:21:28 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Aug/2024:12:21:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+

@@ -3,47 +3,86 @@ import request from 'supertest';
 import mongoose from 'mongoose';
 import app from '../../src/index';
 
-describe('User API - Create User', () => {
+let loginToken = ''; // Variable to store the login token
+let newUser = {}; // Variable to store user details for login
+
+describe('User API', () => {
   before(async () => {
     if (mongoose.connection.readyState === 0) {
       await mongoose.connect(process.env.DATABASE, {
         useNewUrlParser: true,
-        useUnifiedTopology: true
+        useUnifiedTopology: true,
       });
     }
 
-    // Ensure the connection is established before clearing collections
     await mongoose.connection.once('open', async () => {
-      await mongoose.connection.db.dropDatabase(); // Drops the whole database instead of clearing individual collections
+      await mongoose.connection.db.dropDatabase();
     });
+
+
+    newUser = {
+      FirstName: 'Sajan',
+      LastName: 'Kumar',
+      Email: 'sajankumar@gmail.com',
+      Age: 30,
+      Password: '12345678@sajan',
+    };
   });
 
   after(async () => {
     await mongoose.disconnect();
   });
 
-  it('should create a new user and return 201 status with success message', (done) => {
-    const newUser = {
-      FirstName: 'Sajan',
-      LastName: 'Kumar',
-      Email: 'sajankumar@gmail.com',
-      Age: 30,
-      Password: '12345678@sajan'
-    };
+  describe('Create User', () => {
+    it('should create a new user and return 201 status with success message', (done) => {
+      request(app)
+        .post('/api/v1/users/createuser')
+        .send(newUser)
+        .expect(201)
+        .end((err, res) => {
+          console.log('Create User Response Status:', res.status);
+          console.log('Create User Response Body:', res.body);
 
-    request(app)
-      .post('/api/v1/users/createuser')
-      .send(newUser)
-      .expect(201)
-      .end((err, res) => {
-        if (err) {
-          console.error('Response body:', res.body);
-          console.error(`Error: expected 201 "Created", got ${res.statusCode} "${res.statusMessage}"`);
-          return done(err);
-        }
-        expect(res.body).to.have.property('message').that.equals('User created successfully');
-        console.log(res.body);
-        done();
-      });
+          if (err) {
+            console.error('Error:', err.message);
+            return done(err);
+          }
+          expect(res.body).to.have.property('message').that.equals('User created successfully');
+          done();
+        });
+    });
+  });
+
+  describe('Login User', () => {
+    it('should log in the user created above and return 200 status with a token', (done) => {
+      const loginDetails = {
+        Email: newUser.Email, //same email created user
+        Password: newUser.Password, //same password created user
+      };
+
+      request(app)
+        .post('/api/v1/users/login')
+        .send(loginDetails)
+        .expect(200)
+        .end((err, res) => {
+          console.log('Login Response Status:', res.status);
+          console.log('Login Response Body:', res.body);
+
+          if (err) {
+            console.error('Error:', err.message);
+            return done(err);
+          }
+
+          expect(res.body).to.have.property('data');
+          expect(res.body.data).to.have.property('token');
+          
+          // Store the token for future use
+          loginToken = res.body.data.token;
+
+          done();
+        });
+    });
   });
 });
+
+export { loginToken };
