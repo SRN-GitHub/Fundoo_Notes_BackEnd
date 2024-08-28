@@ -95,19 +95,47 @@ describe('User API', () => {
         .expect(200)
         .end((err, res) => {
           console.log('Forget Response Status:', res.status);
-          console.log('Forget  Response Body:', res.body);
+          console.log('Forget Response Body:', res.body);
 
           if (err) {
             console.error('Error:', err.message);
             return done(err);
           }      
           // Store the token for future use
-          forgetToken = res.body.reset_token;
+          forgetToken = res.body.resetToken; // Ensure the key is 'resetToken'
           done();
         });
     });
   });
+
+  // describe('Reset Password', () => {
+  //   it('should reset the password successfully', (done) => {
+  //     const resetPasswordDetails = {
+  //       newPassword: '12345678@newPass',
+  //     };
+
+  //     request(app)
+  //       .post('/api/v1/users/reset-password')
+  //       .set('Authorization', `Bearer ${forgetToken}`) // Use the forgetToken as Bearer token
+  //       .send(resetPasswordDetails)
+  //       .expect(200)
+  //       .end((err, res) => {
+  //         console.log('Reset Password Response Status:', res.status);
+  //         console.log('Reset Password Response Body:', res.body);
+
+  //         if (err) {
+  //           console.error('Error:', err.message);
+  //           return done(err);
+  //         }
+
+  //         done();
+  //       });
+  //   });
+  // });
+
 });
 
-
 export { loginToken };
+
+
+//*   npm run test >>>
