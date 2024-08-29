@@ -1,2 +1,6 @@
 info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T07:11:33.924Z"}
 info: Connected to the database. {"timestamp":"2024-08-29T07:11:33.956Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T07:13:30.923Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T07:13:30.951Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T07:19:41.089Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T07:19:41.124Z"}
