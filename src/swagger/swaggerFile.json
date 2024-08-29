@@ -308,6 +308,122 @@
           }
         }
       }
+    },
+    "/notes/archiveNote/{id}": {
+      "put": {
+        "summary": "Archive a note by ID",
+        "tags": ["Note"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note archived successfully"
+          },
+          "400": {
+            "description": "Invalid input"
+          }
+        }
+      }
+    },
+    "/notes/trashNote/{id}": {
+      "put": {
+        "summary": "Trash a note by ID",
+        "tags": ["Note"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note trashed successfully"
+          },
+          "400": {
+            "description": "Invalid input"
+          }
+        }
+      }
+    },
+    "/notes/unarchiveNote/{id}": {
+      "put": {
+        "summary": "Unarchive a note by ID",
+        "tags": ["Note"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note unarchived successfully"
+          },
+          "400": {
+            "description": "Invalid input"
+          }
+        }
+      }
+    },
+    "/notes/untrashNote/{id}": {
+      "put": {
+        "summary": "Untrash a note by ID",
+        "tags": ["Note"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note untrashed successfully"
+          },
+          "400": {
+            "description": "Invalid input"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -315,36 +431,43 @@
       "User": {
         "type": "object",
         "properties": {
-          "FirstName": {
-            "type": "string"
-          },
-          "LastName": {
+          "username": {
             "type": "string"
           },
           "Email": {
-            "type": "string",
-            "format": "email"
+            "type": "string"
           },
-          "Age": {
-            "type": "integer"
-          },
-          "Password": {
-            "type": "string",
-            "format": "password"
+          "password": {
+            "type": "string"
           }
         },
-        "required": ["FirstName", "LastName", "Email", "Password"]
+        "required": ["email", "password"]
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "username": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          }
+        }
       },
       "UserLogin": {
         "type": "object",
         "properties": {
-          "email": {
-            "type": "string",
-            "format": "email"
+          "Email": {
+            "type": "string"
           },
-          "password": {
-            "type": "string",
-            "format": "password"
+          "Password": {
+            "type": "string"
           }
         },
         "required": ["email", "password"]
@@ -352,9 +475,8 @@
       "UserEmail": {
         "type": "object",
         "properties": {
-          "email": {
-            "type": "string",
-            "format": "email"
+          "Email": {
+            "type": "string"
           }
         },
         "required": ["email"]
@@ -362,74 +484,38 @@
       "ResetPassword": {
         "type": "object",
         "properties": {
+          
           "newPassword": {
-            "type": "string",
-            "format": "password"
+            "type": "string"
           }
         },
-        "required": ["newPassword"]
-      },
-      "UserResponse": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer"
-          },
-          "FirstName": {
-            "type": "string"
-          },
-          "LastName": {
-            "type": "string"
-          },
-          "Email": {
-            "type": "string",
-            "format": "email"
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
-          }
-        }
+        "required": ["token", "newPassword"]
       },
       "Note": {
         "type": "object",
         "properties": {
-          "Title": {
+          "title": {
             "type": "string"
           },
-          "Description": {
+          "noteDetails": {
             "type": "string"
-          },
-          "isArchive": {
-            "type": "boolean"
-          },
-          "isInTrash": {
-            "type": "boolean"
           }
+
+
         },
-        "required": ["Title", "Description"]
+        "required": ["title", "noteDetails"]
       },
       "NoteResponse": {
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer"
-          },
-          "Title": {
             "type": "string"
           },
-          "Description": {
+          "title": {
             "type": "string"
           },
-          "isArchive": {
-            "type": "boolean"
-          },
-          "isInTrash": {
-            "type": "boolean"
+          "content": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",

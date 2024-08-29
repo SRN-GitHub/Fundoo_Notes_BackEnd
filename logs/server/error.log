@@ -4708,3 +4708,149 @@ TypeError: Cannot read properties of undefined (reading 'token')
     at Server.emit (node:events:518:28)
     at emitCloseNT (node:net:2279:8)
     at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Aug 27 2024 18:52:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":660899.625},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Workspace\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha.js","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18293628,"external":20836619,"heapTotal":93351936,"heapUsed":58833776,"rss":131854336},"pid":13896,"uid":null,"version":"v20.11.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'token')\n    at Test.<anonymous> (D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js:105:34)\n    at Test.assert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:632:28)\n    at Server.emit (node:events:518:28)\n    at emitCloseNT (node:net:2279:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2024-08-27T13:22:51.255Z","trace":[{"column":34,"file":"D:\\Workspace\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":105,"method":null,"native":false},{"column":6,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":632,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":518,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2279,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T09:59:14.284Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T09:59:21.873Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:00:16.194Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:00:32.590Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:01:01.778Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:01:04.045Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 94
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:03:32.596Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T11:09:17.861Z"}

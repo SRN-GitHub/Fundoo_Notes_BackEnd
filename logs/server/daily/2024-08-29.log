@@ -4,3 +4,185 @@ info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-
 info: Connected to the database. {"timestamp":"2024-08-29T07:13:30.951Z"}
 info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T07:19:41.089Z"}
 info: Connected to the database. {"timestamp":"2024-08-29T07:19:41.124Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T09:48:22.884Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T09:48:22.915Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T09:50:01.612Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T09:50:01.638Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T09:51:42.758Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T09:51:42.783Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T09:56:07.267Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T09:56:07.298Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T09:59:14.284Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T09:59:21.873Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:00:16.194Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:00:32.590Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:01:01.778Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."chive": fasle,
+  "is"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:01:04.045Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 94
+    at JSON.parse (<anonymous>)
+    at parse (D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T10:03:32.596Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T10:11:57.728Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T10:11:57.753Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T10:15:08.278Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T10:15:08.305Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T10:54:19.441Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T10:54:19.481Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T11:02:15.544Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T11:02:15.578Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T11:07:15.019Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T11:07:15.047Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T11:08:24.098Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T11:08:24.134Z"}
+error: 
+    status - 500 
+    message - Error: User Not Found
+    at _callee3$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:48:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-29T11:09:17.861Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T11:12:40.208Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T11:12:40.230Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T11:21:19.947Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T11:21:19.995Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T11:25:33.093Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T11:25:33.119Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T11:44:57.599Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T11:44:57.630Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T11:51:20.656Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T11:51:20.682Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T11:55:17.589Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T11:55:17.623Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T12:25:21.747Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T12:25:21.777Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-29T12:25:45.609Z"}
+info: Connected to the database. {"timestamp":"2024-08-29T12:25:45.633Z"}
