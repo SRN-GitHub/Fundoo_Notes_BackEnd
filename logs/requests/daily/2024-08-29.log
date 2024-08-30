@@ -294,3 +294,29 @@ info: ::1 - - [29/Aug/2024:12:29:33 +0000] "GET /api/v1/notes/getAllNote HTTP/1.
 
 info: ::1 - - [29/Aug/2024:12:29:50 +0000] "GET /api/v1/notes/getAllNote HTTP/1.1" 200 336 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 
+info: ::1 - - [29/Aug/2024:12:35:34 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:35:34 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:35:34 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:35:34 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:35:34 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:37:05 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:37:06 +0000] "GET /api-docs/swagger-ui.css.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:37:35 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:37:35 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:37:35 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:37:35 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:37:35 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Aug/2024:12:37:36 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+

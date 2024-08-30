@@ -1,0 +1,20 @@
+info: ::1 - - [30/Aug/2024:11:04:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 417 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Aug/2024:11:05:32 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Aug/2024:11:05:48 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Aug/2024:11:06:58 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Aug/2024:11:07:00 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Aug/2024:11:07:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 377 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Aug/2024:11:07:43 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Aug/2024:11:07:46 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Aug/2024:11:07:47 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Aug/2024:11:09:23 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+

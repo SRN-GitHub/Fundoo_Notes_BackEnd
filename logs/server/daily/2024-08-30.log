@@ -1,0 +1,46 @@
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T08:45:47.627Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T08:45:47.676Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T10:56:57.034Z"}
+info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T10:56:57.058Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T10:56:57.067Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:00:41.867Z"}
+info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T11:00:41.895Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T11:00:41.914Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:04:04.373Z"}
+info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T11:04:04.395Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T11:04:04.409Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:06:51.913Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T11:06:51.940Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:09:19.904Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T11:09:19.930Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:11:19.346Z"}
+info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T11:11:19.369Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T11:11:19.384Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:18:03.894Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:18:03.931Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:18:06.705Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:18:06.736Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:20:13.963Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:20:13.993Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:21:41.509Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:21:41.535Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:25:01.277Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:25:01.314Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:26:25.135Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:26:25.181Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:26:43.425Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:26:43.458Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:26:58.436Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:26:58.470Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:28:28.732Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:28:28.760Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:28:31.050Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:28:31.082Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T11:28:48.923Z"}
+error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:28:48.956Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T12:05:20.589Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T12:05:20.622Z"}
+info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T12:05:20.673Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T12:06:17.295Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T12:06:17.328Z"}
+info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T12:06:17.344Z"}

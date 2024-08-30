@@ -1,6 +1,6 @@
-// index.js
 import dotenv from 'dotenv';
 dotenv.config();
+
 
 import express from 'express';
 import cors from 'cors';
@@ -8,7 +8,9 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 
 import routes from './routes';
-import database from './config/database';
+import database from './config/database'; 
+import { connectRabbitMQ } from './utils/rabbitmq/rabbitmq'; // Import the RabbitMQ connection
+
 import {
   appErrorHandler,
   genericErrorHandler,
@@ -50,6 +52,14 @@ app.use(morgan('combined', { stream: logStream }));
 // Connect to the database
 database();
 
+// Connect to RabbitMQ
+connectRabbitMQ().then(() => {
+  logger.info('Connected to RabbitMQ successfully.');
+}).catch((error) => {
+  logger.error(`Failed to connect to RabbitMQ: ${error.message}`);
+  process.exit(1); // Exit the process if RabbitMQ connection fails
+});
+
 // Route handling
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc)); // Correct Swagger UI setup
 app.use(`/api/${api_version}`, routes());
@@ -63,6 +73,5 @@ app.use(genericErrorHandler);
 app.listen(port, () => {
   logger.info(`Server started at http://${host}:${port}/api/${api_version}/`);
 });
-
 
 export default app;
