@@ -5716,3 +5716,9 @@ info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T12:05:20.673Z
 info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T12:06:17.295Z"}
 info: Connected to the database. {"timestamp":"2024-08-30T12:06:17.328Z"}
 info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T12:06:17.344Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T12:06:51.774Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T12:06:51.801Z"}
+info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T12:06:51.812Z"}
+info: Server started at http://http://localhost:4051/api/v1/ {"timestamp":"2024-08-30T17:23:49.994Z"}
+info: Connected to the database. {"timestamp":"2024-08-30T17:23:50.032Z"}
+info: Connected to RabbitMQ successfully. {"timestamp":"2024-08-30T17:23:50.049Z"}
