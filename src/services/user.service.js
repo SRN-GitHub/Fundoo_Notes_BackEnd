@@ -18,6 +18,8 @@ export const newUser = async (body) => {
   const saltRound = 12;
   const hashedPassword = await bcrypt.hash(body.Password, saltRound);
   const data = await User.create({ ...body, Password: hashedPassword });
+  
+  // Ensure the email is returned as part of the created data
   return data;
 };
 

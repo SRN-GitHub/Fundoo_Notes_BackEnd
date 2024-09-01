@@ -2,6 +2,7 @@ import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import * as UserService from '../services/user.service';
 import { sendResetPasswordEmail } from '../utils/sendMail';
+import { sendEmailMessage } from '../utils/rabbitmq/publisher';
 
 
 //* Entry point of the API and Handles HTTP reqsts and invoke services.
@@ -10,12 +11,29 @@ import { sendResetPasswordEmail } from '../utils/sendMail';
 export const newUser = async (req, res, next) => {
   try {
     const data = await UserService.newUser(req.body);
+
+    const userData = data.toJSON();
+    delete userData.password;
+
+    console.log('User data after creation:', userData);
+
+    if (!userData.Email) {  // Make sure the field name is correct (case-sensitive)
+      throw new Error('User email is missing.');
+    }
+
+    await sendEmailMessage(
+      userData.Email,  // Make sure you're sending the correct field
+      'Welcome to Fundoo Notes!',
+      'Thank you for signing up for Fundoo Notes. We are excited to have you on board!'
+    );
+
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
-      data: data,
-      message: 'User created successfully'
+      data: userData,
+      message: 'User created successfully',
     });
   } catch (error) {
+    console.error('Error during user creation:', error);
     next(error);
   }
 };

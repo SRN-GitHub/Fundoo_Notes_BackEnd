@@ -9,7 +9,7 @@ import morgan from 'morgan';
 
 import routes from './routes';
 import database from './config/database'; 
-import { connectRabbitMQ } from './utils/rabbitmq/rabbitmq'; // Import the RabbitMQ connection
+// import { connectRabbitMQ } from './utils/rabbitmq/rabbitmq'; // Import the RabbitMQ connection
 
 import {
   appErrorHandler,
@@ -53,12 +53,12 @@ app.use(morgan('combined', { stream: logStream }));
 database();
 
 // Connect to RabbitMQ
-connectRabbitMQ().then(() => {
-  logger.info('Connected to RabbitMQ successfully.');
-}).catch((error) => {
-  logger.error(`Failed to connect to RabbitMQ: ${error.message}`);
-  process.exit(1); // Exit the process if RabbitMQ connection fails
-});
+// connectRabbitMQ().then(() => {
+//   logger.info('Connected to RabbitMQ successfully.');
+// }).catch((error) => {
+//   logger.error(`Failed to connect to RabbitMQ: ${error.message}`);
+//   process.exit(1); // Exit the process if RabbitMQ connection fails
+// });
 
 // Route handling
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc)); // Correct Swagger UI setup

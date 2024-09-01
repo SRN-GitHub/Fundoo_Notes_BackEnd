@@ -431,13 +431,19 @@
       "User": {
         "type": "object",
         "properties": {
-          "username": {
+          "FirstName": {
+            "type": "string"
+          },
+          "LastName": {
             "type": "string"
           },
           "Email": {
             "type": "string"
           },
-          "password": {
+          "Age": {
+            "type": "integer"
+          },
+          "Password": {
             "type": "string"
           }
         },

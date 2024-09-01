@@ -4965,3 +4965,422 @@ error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:26:58.470Z"}
 error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:28:28.760Z"}
 error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:28:31.082Z"}
 error: Failed to connect to RabbitMQ:  {"timestamp":"2024-08-30T11:28:48.956Z"}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:05:10 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":384204.093},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18295167,"external":21365607,"heapTotal":87699456,"heapUsed":57240360,"rss":127086592},"pid":5752,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:35:10.750Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:06:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":384261.562},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":88367104,"heapUsed":65398200,"rss":129810432},"pid":15664,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:36:08.225Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:06:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":384268.812},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":87318528,"heapUsed":57749936,"rss":126357504},"pid":9904,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:36:15.475Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:07:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":384336.968},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":88104960,"heapUsed":65319224,"rss":128634880},"pid":5148,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:37:23.624Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:07:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":384343.312},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":87842816,"heapUsed":57326680,"rss":126717952},"pid":17516,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:37:29.980Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:07:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":384368.109},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":88367104,"heapUsed":65807752,"rss":129568768},"pid":18576,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:37:54.773Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:20:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":385127.015},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":89153536,"heapUsed":59868728,"rss":130465792},"pid":15124,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:50:33.667Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:23:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":385318.515},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":87842816,"heapUsed":55236632,"rss":128512000},"pid":13456,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:53:45.183Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:23:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":385331.546},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":87318528,"heapUsed":61474008,"rss":126201856},"pid":14068,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:53:58.207Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:24:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":385373.703},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":87056384,"heapUsed":54848064,"rss":126033920},"pid":22248,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:54:40.359Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:24:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":385386.765},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":88104960,"heapUsed":53300688,"rss":129257472},"pid":12052,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:54:53.432Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: (0 , _rabbitmq.connectRabbitMQ) is not a function
+TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\src\/index.js:56:16)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\Workspace\Fundoo_Notes\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:220:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Sep 02 2024 01:25:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":385410.015},"process":{"argv":["node","D:\\Workspace\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\Workspace\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360703,"external":21431143,"heapTotal":87580672,"heapUsed":61331136,"rss":126451712},"pid":676,"uid":null,"version":"v20.11.1"},"stack":"TypeError: (0 , _rabbitmq.connectRabbitMQ) is not a function\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\src\\/index.js:56:16)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-01T19:55:16.680Z","trace":[{"column":16,"file":"D:\\Workspace\\Fundoo_Notes\\src\\/index.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\Workspace\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: User email is missing.
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/user.controller.js:24:13)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-01T20:24:11.627Z"}
+error: 
+    status - 500 
+    message - Error: Email is required
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:26:11)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.newUser (D:\Workspace\Fundoo_Notes\src\services\/user.service.js:24:21)
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/user.controller.js:14:36)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newUser (D:\Workspace\Fundoo_Notes\src\controllers\/user.controller.js:11:21)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at newUserValidator (D:\Workspace\Fundoo_Notes\src\validators\/user.validator.js:19:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-01T20:29:31.302Z"}
+error: 
+    status - 500 
+    message - Error: User email is missing.
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/user.controller.js:49:13)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at newUser (D:\Workspace\Fundoo_Notes\src\controllers\/user.controller.js:46:21)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at newUserValidator (D:\Workspace\Fundoo_Notes\src\validators\/user.validator.js:19:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Workspace\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Workspace\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Workspace\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-01T20:33:18.488Z"}
+error: 
+    status - 500 
+    message - Error: User email is missing.
+    at _callee$ (D:\Workspace\Fundoo_Notes\src\controllers\/user.controller.js:24:13)
+    at tryCatch (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Workspace\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-01T20:36:07.289Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FundooNotes.users index: Email_1 dup key: { Email: "shankharanjannag21@gmail.com" } 
+      url - /api/v1/users/createuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-09-01T20:36:11.458Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\Workspace\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\Workspace\Fundoo_Notes\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (D:\Workspace\Fundoo_Notes\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (D:\Workspace\Fundoo_Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-01T20:36:11.467Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FundooNotes.users index: Email_1 dup key: { Email: "shankharanjannag21@gmail.com" } 
+      url - /api/v1/users/createuser 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-09-01T20:36:37.218Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\Workspace\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\Workspace\Fundoo_Notes\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (D:\Workspace\Fundoo_Notes\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (D:\Workspace\Fundoo_Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Workspace\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/createuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-01T20:36:37.229Z"}

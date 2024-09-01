@@ -6,3 +6,35 @@ info: ::1 - - [01/Sep/2024:18:47:52 +0000] "GET /api-docs/swagger-ui-init.js HTT
 
 info: ::1 - - [01/Sep/2024:18:47:52 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 
+info: ::1 - - [01/Sep/2024:19:57:52 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:19:57:52 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:19:57:52 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:19:57:52 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:19:57:52 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:19:57:54 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:01:08 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:05:03 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:11:22 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:16:11 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:24:11 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:29:31 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 52 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:33:18 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:36:07 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:36:11 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 61 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Sep/2024:20:36:37 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 61 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
