@@ -3466,3 +3466,9 @@ info: ::1 - - [01/Sep/2024:20:36:37 +0000] "POST /api/v1/users/createuser HTTP/1
 
 info: ::1 - - [01/Sep/2024:20:43:01 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 
+info: ::ffff:127.0.0.1 - - [04/Sep/2024:11:04:47 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Sep/2024:11:04:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 391 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Sep/2024:11:04:50 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
