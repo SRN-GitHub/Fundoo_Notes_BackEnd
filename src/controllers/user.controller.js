@@ -17,12 +17,12 @@ export const newUser = async (req, res, next) => {
 
     console.log('User data after creation:', userData);
 
-    if (!userData.Email) {  // Make sure the field name is correct (case-sensitive)
+    if (!userData.Email) { 
       throw new Error('User email is missing.');
     }
 
     await sendEmailMessage(
-      userData.Email,  // Make sure you're sending the correct field
+      userData.Email,  // sending the correct Email field
       'Welcome to Fundoo Notes!',
       'Thank you for signing up for Fundoo Notes. We are excited to have you on board!'
     );

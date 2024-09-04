@@ -3464,3 +3464,5 @@ info: ::1 - - [01/Sep/2024:20:36:11 +0000] "POST /api/v1/users/createuser HTTP/1
 
 info: ::1 - - [01/Sep/2024:20:36:37 +0000] "POST /api/v1/users/createuser HTTP/1.1" 500 61 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 
+info: ::1 - - [01/Sep/2024:20:43:01 +0000] "POST /api/v1/users/createuser HTTP/1.1" 201 346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+

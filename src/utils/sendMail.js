@@ -1,37 +1,34 @@
-  import { config } from 'dotenv';
-  import nodemailer from 'nodemailer';
+import { config } from 'dotenv';
+import nodemailer from 'nodemailer';
 
-
-  export const sendResetPasswordEmail = async (email, resetToken, FirstNameUser) => {
-      try {
-        const transporter = nodemailer.createTransport({
-          service: 'gmail',
-          secure: true,
-          auth: {
-            user: process.env.EMAIL,
-            pass: process.env.EMAIL_PASSWORD,
-          },
-        });
-
-        const mailOptions = {
-          from: process.env.EMAIL,
-          to: email,
-          subject: 'Password Reset Request TESTING',
-          text: `You requested a password reset. Use this token: ${resetToken}. It is valid for 1 hour.`,
-          html: `<p>Hello ${FirstNameUser},</p><p>You requested a password reset. Use this token: <strong>${resetToken}</strong>. It is valid for 1 hour.</p>`,
-        };
-
-        const info = await transporter.sendMail(mailOptions);
-        console.log('Email sent: ' + info.response);
-    
-        return { success: true, message: 'Reset email sent successfully' };
-      } catch (error) {
-        console.error('Error sending reset email:', error); // Log the exact error
-        throw new Error('Failed to send reset email');
-      }
-    };
-    
-  //*                 ___<<<< ONLY FOR TESTING PURPOSE >>>>___
+export const sendResetPasswordEmail = async (email, resetToken, FirstNameUser) => {
+    try {
+      const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        secure: true,
+        auth: {
+          user: process.env.EMAIL,
+          pass: process.env.EMAIL_PASSWORD,
+        },
+      });
+      const mailOptions = {
+        from: process.env.EMAIL,
+        to: email,
+        subject: 'Password Reset Request TESTING',
+        text: `You requested a password reset. Use this token: ${resetToken}. It is valid for 1 hour.`,
+        html: `<p>Hello ${FirstNameUser},</p><p>You requested a password reset. Use this token: <strong>${resetToken}</strong>. It is valid for 1 hour.</p>`,
+      };
+      const info = await transporter.sendMail(mailOptions);
+      console.log('Email sent: ' + info.response);
+  
+      return { success: true, message: 'Reset email sent successfully' };
+    } catch (error) {
+      console.error('Error sending reset email:', error); // Log the exact error
+      throw new Error('Failed to send reset email');
+    }
+  };
+  
+//*                 ___<<<< ONLY FOR TESTING PURPOSE >>>>___
   // const testSendEmail = async () => {
   //     try {
   //       const transporter = nodemailer.createTransport({
